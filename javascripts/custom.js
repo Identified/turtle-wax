@@ -1,1 +1,4 @@
-jQuery('#header').load('http://employers.identified.com/Portals/95329/HTML/footer2.html');
+$('#footer').load('https://raw.github.com/Identified/turtle-wax/master/html/footer.html');
+$('#header').load('https://raw.github.com/Identified/turtle-wax/master/html/header.html');
+$('#home-content').load('https://raw.github.com/Identified/turtle-wax/master/html/home/content.html');
+$('#features-content').load('https://raw.github.com/Identified/turtle-wax/master/html/features/content.html');
