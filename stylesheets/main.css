@@ -34,17 +34,22 @@ body .container {
 }
 
 /* line 24, ../sass/_header.scss */
+#content {
+  margin: 10px auto;
+}
+
+/* line 28, ../sass/_header.scss */
 #logo {
   float: left;
   padding: 10px 0px;
 }
 
-/* line 29, ../sass/_header.scss */
+/* line 33, ../sass/_header.scss */
 #menu {
   float: right;
 }
 
-/* line 33, ../sass/_header.scss */
+/* line 37, ../sass/_header.scss */
 #menu a {
   display: inline-block;
   font-size: 15px;
@@ -52,7 +57,7 @@ body .container {
   padding: 15px 10px 0px 10px;
   color: #616868;
 }
-/* line 40, ../sass/_header.scss */
+/* line 44, ../sass/_header.scss */
 #menu a:hover {
   background-color: #333;
   color: #ffffff;
@@ -133,13 +138,14 @@ ol.bjqs-markers li a {
   padding: 8px;
   position: absolute;
   bottom: 0;
+  top: 0;
 }
-/* line 57, ../sass/_slideshow.scss */
+/* line 58, ../sass/_slideshow.scss */
 .bjqs-caption p {
   padding: 8px;
 }
 
-/* line 63, ../sass/_slideshow.scss */
+/* line 64, ../sass/_slideshow.scss */
 ol.bjqs-markers li a {
   padding: 5px 10px;
   background: #000;
@@ -147,7 +153,7 @@ ol.bjqs-markers li a {
   margin: 5px;
   text-decoration: none;
 }
-/* line 70, ../sass/_slideshow.scss */
+/* line 71, ../sass/_slideshow.scss */
 ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
   background: #999;
 }
