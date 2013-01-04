@@ -1,13 +1,16 @@
+/* line 1, ../sass/_header.scss */
 body {
   font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
-  font-size: 62.5%;
+  font-size: 100%;
   color: #333;
 }
 
+/* line 2, ../sass/home/_content.scss */
 html {
   font-size: 12px;
 }
 
+/* line 6, ../sass/main.scss */
 #QuickPreviewOverlay {
   top: 0px !important;
 }
