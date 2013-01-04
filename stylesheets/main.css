@@ -1,9 +1,16 @@
 /* line 3, ../sass/features/_content.scss */
 #panels div {
   display: none;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
-/* line 5, ../sass/features/_content.scss */
+/* line 11, ../sass/features/_content.scss */
 #panels div.selected {
+  opacity: 1;
   display: block;
 }
 
