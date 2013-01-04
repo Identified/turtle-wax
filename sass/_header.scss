@@ -10,3 +10,35 @@ body {
   }
 }
 
+#header {
+  border-bottom : 1px solid #cecece;
+  height        : 50px;
+  width         : 100%;
+}
+
+#nav, #content {
+  margin: 0px auto;
+  width: 960px;
+}
+
+#logo {
+  float:left;
+  padding: 10px 0px;
+}
+
+#menu {
+  float:right;
+}
+
+#menu a {
+  display: inline-block;
+  font-size: 15px;
+  height: 35px;
+  padding: 15px 10px 0px 10px;
+  color: #616868;
+
+  &:hover {
+    background-color: #333;
+    color: #ffffff;
+  }
+}

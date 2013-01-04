@@ -56,3 +56,6 @@ sup {
 svg {
     overflow: hidden;
 }
+a {
+    text-decoration: none;
+}
