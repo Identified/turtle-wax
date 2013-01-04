@@ -1,1 +1,9 @@
 // menu.scss
+#panels {
+  #panels div {
+    display: none;
+    &.selected {
+      display: block;
+    }
+  }
+}

@@ -1,3 +1,12 @@
+/* line 3, ../sass/features/_content.scss */
+#panels #panels div {
+  display: none;
+}
+/* line 5, ../sass/features/_content.scss */
+#panels #panels div.selected {
+  display: block;
+}
+
 /* line 1, ../sass/_header.scss */
 body {
   font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
