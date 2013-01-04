@@ -1,5 +1,19 @@
 // menu.scss
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+#tabs {
+  width: 260px;
+  float: left;
+}
+
+
 #panels {
+  width: 700px;
+  float: left;
+
   div {
     display: none;
     opacity: 0;
@@ -8,6 +22,7 @@
     -o-transition: opacity 1s ease-in-out;
     -ms-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
+    
     &.selected {
       opacity: 1;
       display: block;
