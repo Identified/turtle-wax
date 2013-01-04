@@ -11,12 +11,134 @@ body .container {
   padding: 0;
 }
 
+/* line 13, ../sass/_header.scss */
+#header {
+  border-bottom: 1px solid #cecece;
+  height: 50px;
+  width: 100%;
+}
+
+/* line 19, ../sass/_header.scss */
+#nav, #content {
+  margin: 0px auto;
+  width: 960px;
+}
+
+/* line 24, ../sass/_header.scss */
+#logo {
+  float: left;
+  padding: 10px 0px;
+}
+
+/* line 29, ../sass/_header.scss */
+#menu {
+  float: right;
+}
+
+/* line 33, ../sass/_header.scss */
+#menu a {
+  display: inline-block;
+  font-size: 15px;
+  height: 35px;
+  padding: 15px 10px 0px 10px;
+  color: #616868;
+}
+/* line 40, ../sass/_header.scss */
+#menu a:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+
 /* line 2, ../sass/home/_content.scss */
 html {
   font-size: 12px;
 }
 
-/* line 6, ../sass/main.scss */
+/* line 5, ../sass/main.scss */
 #QuickPreviewOverlay {
   top: 0px !important;
+}
+
+/* line 1, ../sass/_slideshow.scss */
+ul.bjqs {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: none;
+}
+
+/* line 10, ../sass/_slideshow.scss */
+li.bjqs-slide {
+  position: absolute;
+  display: none;
+}
+
+/* line 15, ../sass/_slideshow.scss */
+ul.bjqs-controls {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 9999;
+}
+/* line 21, ../sass/_slideshow.scss */
+ul.bjqs-controls.v-centered li a {
+  position: absolute;
+}
+/* line 24, ../sass/_slideshow.scss */
+ul.bjqs-controls.v-centered li.bjqs-next a {
+  right: 0;
+}
+/* line 27, ../sass/_slideshow.scss */
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+  left: 0;
+}
+
+/* line 33, ../sass/_slideshow.scss */
+ol.bjqs-markers {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+/* line 38, ../sass/_slideshow.scss */
+ol.bjqs-markers.h-centered {
+  text-align: center;
+}
+/* line 41, ../sass/_slideshow.scss */
+ol.bjqs-markers li {
+  display: inline;
+}
+/* line 43, ../sass/_slideshow.scss */
+ol.bjqs-markers li a {
+  display: inline-block;
+}
+
+/* line 49, ../sass/_slideshow.scss */
+.bjqs-caption {
+  display: block;
+  width: 400px;
+  height: 100%;
+  margin: 0;
+  padding: 8px;
+  position: absolute;
+  bottom: 0;
+}
+/* line 57, ../sass/_slideshow.scss */
+.bjqs-caption p {
+  padding: 8px;
+}
+
+/* line 63, ../sass/_slideshow.scss */
+ol.bjqs-markers li a {
+  padding: 5px 10px;
+  background: #000;
+  color: #fff;
+  margin: 5px;
+  text-decoration: none;
+}
+/* line 70, ../sass/_slideshow.scss */
+ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
+  background: #999;
 }
