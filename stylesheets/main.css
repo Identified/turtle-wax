@@ -9,3 +9,8 @@ body {
 html {
   font-size: 12px;
 }
+
+/* line 7, ../sass/main.scss */
+#QuickPreviewOverlay {
+  top: 0px !important;
+}
