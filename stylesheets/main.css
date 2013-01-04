@@ -4,6 +4,12 @@ body {
   font-size: 100%;
   color: #333;
 }
+/* line 6, ../sass/_header.scss */
+body .container {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
 
 /* line 2, ../sass/home/_content.scss */
 html {
