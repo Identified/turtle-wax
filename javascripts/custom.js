@@ -5,10 +5,8 @@ $('#home-content').load('http://employers.identified.com/Portals/95329/health_re
 
 
 // The BEST way to do tabs
-$(document).live (function(){
   $("#tabs div").bind('click', function (e) {
     this.targetClass = $(e.currentTarget).attr("class");
     $("#tabs div, #panels div").removeClass("selected");
     $("." + this.targetClass).addClass('selected');
   });
-});
