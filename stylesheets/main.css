@@ -1,9 +1,9 @@
 /* line 3, ../sass/features/_content.scss */
-#panels #panels div {
+#panels div {
   display: none;
 }
 /* line 5, ../sass/features/_content.scss */
-#panels #panels div.selected {
+#panels div.selected {
   display: block;
 }
 
