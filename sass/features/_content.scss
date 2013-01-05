@@ -13,15 +13,18 @@
   div {
     cursor               : pointer;
     padding              : 14px 0 14px 14px;
-    color                : #333;
+    color                : #F83D19;
     -webkit-transition   : background-color .3s ease-in-out;
     -moz-transition      : background-color .3s ease-in-out;
     -o-transition        : background-color .3s ease-in-out;
     -ms-transition       : background-color .3s ease-in-out;
     transition           : background-color .3s ease-in-out;
+    border-top: 1px #666 solid;
+    border-bottom: 1px #666 solid;
+
     &:hover {
       color              : #fff;
-      background-color   : #3879D3;
+      background-color   : #F83D19;
     }
   }
 }

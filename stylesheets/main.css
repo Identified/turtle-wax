@@ -15,30 +15,32 @@
 #tabs div {
   cursor: pointer;
   padding: 14px 0 14px 14px;
-  color: #333;
+  color: #F83D19;
   -webkit-transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out;
   -ms-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
+  border-top: 1px #666666 solid;
+  border-bottom: 1px #666666 solid;
 }
-/* line 22, ../sass/features/_content.scss */
+/* line 25, ../sass/features/_content.scss */
 #tabs div:hover {
   color: #fff;
-  background-color: #3879D3;
+  background-color: #F83D19;
 }
 
-/* line 29, ../sass/features/_content.scss */
+/* line 32, ../sass/features/_content.scss */
 #panels {
   width: 700px;
   float: left;
 }
-/* line 33, ../sass/features/_content.scss */
+/* line 36, ../sass/features/_content.scss */
 #panels div {
   display: none;
   opacity: 0;
 }
-/* line 37, ../sass/features/_content.scss */
+/* line 40, ../sass/features/_content.scss */
 #panels div.selected {
   opacity: 1;
   display: block;
