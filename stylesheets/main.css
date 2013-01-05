@@ -6,30 +6,46 @@
 }
 
 /* line 7, ../sass/features/_content.scss */
-#tabs {
+#sidebar {
   width: 260px;
   float: left;
 }
 
 /* line 13, ../sass/features/_content.scss */
+#tabs div {
+  padding: 20px 12px 20px 0;
+  color: #333;
+  -webkit-transition: background-color 1s ease-in-out;
+  -moz-transition: background-color 1s ease-in-out;
+  -o-transition: background-color 1s ease-in-out;
+  -ms-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
+}
+/* line 21, ../sass/features/_content.scss */
+#tabs div:hover {
+  color: #fff;
+  background-color: #3879D3;
+}
+
+/* line 28, ../sass/features/_content.scss */
 #panels {
   width: 700px;
   float: left;
 }
-/* line 17, ../sass/features/_content.scss */
+/* line 32, ../sass/features/_content.scss */
 #panels div {
   display: none;
   opacity: 0;
+}
+/* line 36, ../sass/features/_content.scss */
+#panels div.selected {
+  opacity: 1;
+  display: block;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   -ms-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-}
-/* line 26, ../sass/features/_content.scss */
-#panels div.selected {
-  opacity: 1;
-  display: block;
 }
 
 /* line 1, ../sass/_header.scss */
