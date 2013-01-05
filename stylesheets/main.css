@@ -32,49 +32,65 @@
   display: block;
 }
 
-/* line 1, ../sass/_header.scss */
+/* line 2, ../sass/_header.scss */
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+
+/* line 6, ../sass/_header.scss */
+.cf:after {
+  clear: both;
+}
+
+/* line 9, ../sass/_header.scss */
+.cf {
+  *zoom: 1;
+}
+
+/* line 14, ../sass/_header.scss */
 body {
   font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
   font-size: 100%;
   color: #333;
 }
-/* line 6, ../sass/_header.scss */
+/* line 19, ../sass/_header.scss */
 body .container {
   width: 100%;
   text-align: center;
   padding: 0;
 }
 
-/* line 13, ../sass/_header.scss */
+/* line 28, ../sass/_header.scss */
 #header {
   border-bottom: 1px solid #cecece;
   height: 50px;
   width: 100%;
 }
 
-/* line 19, ../sass/_header.scss */
+/* line 34, ../sass/_header.scss */
 #nav, #content {
   margin: 0px auto;
   width: 960px;
 }
 
-/* line 24, ../sass/_header.scss */
+/* line 39, ../sass/_header.scss */
 #content {
   margin: 10px auto;
 }
 
-/* line 28, ../sass/_header.scss */
+/* line 43, ../sass/_header.scss */
 #logo {
   float: left;
   padding: 10px 0px;
 }
 
-/* line 33, ../sass/_header.scss */
+/* line 48, ../sass/_header.scss */
 #menu {
   float: right;
 }
 
-/* line 37, ../sass/_header.scss */
+/* line 52, ../sass/_header.scss */
 #menu a {
   display: inline-block;
   font-size: 15px;
@@ -82,7 +98,7 @@ body .container {
   padding: 15px 10px 0px 10px;
   color: #616868;
 }
-/* line 44, ../sass/_header.scss */
+/* line 59, ../sass/_header.scss */
 #menu a:hover {
   background-color: #333;
   color: #ffffff;
