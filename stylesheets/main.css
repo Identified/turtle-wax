@@ -13,31 +13,32 @@
 
 /* line 13, ../sass/features/_content.scss */
 #tabs div {
-  padding: 20px 12px 20px 0;
+  cursor: pointer;
+  padding: 20px 20px 20px 0;
   color: #333;
-  -webkit-transition: background-color 1s ease-in-out;
-  -moz-transition: background-color 1s ease-in-out;
-  -o-transition: background-color 1s ease-in-out;
-  -ms-transition: background-color 1s ease-in-out;
-  transition: background-color 1s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
-/* line 21, ../sass/features/_content.scss */
+/* line 22, ../sass/features/_content.scss */
 #tabs div:hover {
   color: #fff;
   background-color: #3879D3;
 }
 
-/* line 28, ../sass/features/_content.scss */
+/* line 29, ../sass/features/_content.scss */
 #panels {
   width: 700px;
   float: left;
 }
-/* line 32, ../sass/features/_content.scss */
+/* line 33, ../sass/features/_content.scss */
 #panels div {
   display: none;
   opacity: 0;
 }
-/* line 36, ../sass/features/_content.scss */
+/* line 37, ../sass/features/_content.scss */
 #panels div.selected {
   opacity: 1;
   display: block;
