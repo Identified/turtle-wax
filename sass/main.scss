@@ -2,7 +2,5 @@
 @import "footer";
 @import "header";
 @import "home/content";
-#QuickPreviewOverlay {
-  top: 0px !important;
-}
+@import "app";
 @import "slideshow";
