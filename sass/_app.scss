@@ -1,37 +1,38 @@
 // Apply a natural box layout model to all elements
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  -moz-box-sizing    : border-box;
+  -webkit-box-sizing : border-box;
+  box-sizing         : border-box;
   }
 
 // Moves the stupid hubspot button
 #QuickPreviewOverlay {
-  top: 0px !important;
+  top                : 0px !important;
 }
 
 // Clearfix
-.cf:before, .cf:after {
-  content: " ";
-  display: table;
+.cf                  : before, .cf:after {
+  content            : " ";
+  display            : table;
 }
-.cf:after {
-    clear: both;
+.cf                  : after {
+    clear            : both;
 }
 .cf {
-    *zoom: 1;
+    *zoom            : 1;
 }
 
 // Common styles
 body {
-  font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
-  font-size: 100%;
-  color:#333;
+  font-family        : "proxima-nova","Helvetica Neue","Arial",sans-serif;
+  font-size          : 14px;
+  line-height        : 18px;
+  color              : #666;
 
   .container {
-    width: 100%;
-    text-align: center;
-    padding: 0;
+    width            : 100%;
+    text-align       : center;
+    padding          : 0;
   }
 }
 

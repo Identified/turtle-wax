@@ -1,224 +1,86 @@
-/* line 2, ../sass/features/_content.scss */
-#wrapper {
-  width: 960px;
-  margin: 0 auto;
-  padding: 0;
-}
+/*
+Syntax error: Invalid CSS after "...              :": expected pseudoclass or pseudoelement, was " before, .cf:af..."
+        on line 14 of /Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss
+        from line 5 of /Users/dennisbest/Sites/identified/turtle-wax/sass/main.scss
 
-/* line 7, ../sass/features/_content.scss */
-#sidebar {
-  width: 260px;
-  float: left;
-}
-
-/* line 13, ../sass/features/_content.scss */
-#tabs div {
-  cursor: pointer;
-  padding: 20px 20px 20px 0;
-  color: #333;
-  -webkit-transition: background-color 0.2s ease-in-out;
-  -moz-transition: background-color 0.2s ease-in-out;
-  -o-transition: background-color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
-}
-/* line 22, ../sass/features/_content.scss */
-#tabs div:hover {
-  color: #fff;
-  background-color: #3879D3;
-}
-
-/* line 29, ../sass/features/_content.scss */
-#panels {
-  width: 700px;
-  float: left;
-}
-/* line 33, ../sass/features/_content.scss */
-#panels div {
-  display: none;
-  opacity: 0;
-}
-/* line 37, ../sass/features/_content.scss */
-#panels div.selected {
-  opacity: 1;
-  display: block;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  -ms-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-/* line 1, ../sass/_header.scss */
-#header {
-  border-bottom: 1px solid #cecece;
-  height: 50px;
-  width: 100%;
-}
-
-/* line 7, ../sass/_header.scss */
-#nav, #content {
-  margin: 0px auto;
-  width: 960px;
-}
-
-/* line 12, ../sass/_header.scss */
-#content {
-  margin: 10px auto;
-}
-
-/* line 16, ../sass/_header.scss */
-#logo {
-  float: left;
-  padding: 10px 0px;
-}
-
-/* line 21, ../sass/_header.scss */
-#menu {
-  float: right;
-}
-
-/* line 25, ../sass/_header.scss */
-#menu a {
-  display: inline-block;
-  font-size: 15px;
-  height: 35px;
-  padding: 15px 10px 0px 10px;
-  color: #616868;
-}
-/* line 32, ../sass/_header.scss */
-#menu a:hover {
-  background-color: #333;
-  color: #ffffff;
-}
-
-/* line 2, ../sass/home/_content.scss */
-html {
-  font-size: 12px;
-}
-
-/* line 2, ../sass/_app.scss */
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* line 9, ../sass/_app.scss */
-#QuickPreviewOverlay {
-  top: 0px !important;
-}
-
-/* line 14, ../sass/_app.scss */
-.cf:before, .cf:after {
-  content: " ";
-  display: table;
-}
-
-/* line 18, ../sass/_app.scss */
-.cf:after {
-  clear: both;
-}
-
-/* line 21, ../sass/_app.scss */
-.cf {
-  *zoom: 1;
-}
-
-/* line 26, ../sass/_app.scss */
-body {
-  font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
-  font-size: 100%;
-  color: #333;
-}
-/* line 31, ../sass/_app.scss */
-body .container {
-  width: 100%;
-  text-align: center;
-  padding: 0;
-}
-
-/* line 1, ../sass/_slideshow.scss */
-ul.bjqs {
-  position: relative;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  display: none;
-}
-
-/* line 10, ../sass/_slideshow.scss */
-li.bjqs-slide {
-  position: absolute;
-  display: none;
-}
-
-/* line 15, ../sass/_slideshow.scss */
-ul.bjqs-controls {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  z-index: 9999;
-}
-/* line 21, ../sass/_slideshow.scss */
-ul.bjqs-controls.v-centered li a {
-  position: absolute;
-}
-/* line 24, ../sass/_slideshow.scss */
-ul.bjqs-controls.v-centered li.bjqs-next a {
-  right: 0;
-}
-/* line 27, ../sass/_slideshow.scss */
-ul.bjqs-controls.v-centered li.bjqs-prev a {
-  left: 0;
-}
-
-/* line 33, ../sass/_slideshow.scss */
-ol.bjqs-markers {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-/* line 38, ../sass/_slideshow.scss */
-ol.bjqs-markers.h-centered {
-  text-align: center;
-}
-/* line 41, ../sass/_slideshow.scss */
-ol.bjqs-markers li {
-  display: inline;
-}
-/* line 43, ../sass/_slideshow.scss */
-ol.bjqs-markers li a {
-  display: inline-block;
-}
-
-/* line 49, ../sass/_slideshow.scss */
-.bjqs-caption {
-  display: block;
-  width: 400px;
-  height: 100%;
-  margin: 0;
-  padding: 8px;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-}
-/* line 58, ../sass/_slideshow.scss */
-.bjqs-caption p {
-  padding: 8px;
-}
-
-/* line 64, ../sass/_slideshow.scss */
-ol.bjqs-markers li a {
-  padding: 5px 10px;
-  background: #000;
-  color: #fff;
-  margin: 5px;
-  text-decoration: none;
-}
-/* line 71, ../sass/_slideshow.scss */
-ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
-  background: #999;
-}
+Backtrace:
+/Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss:14
+/Users/dennisbest/Sites/identified/turtle-wax/sass/main.scss:5
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:1136:in `expected'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:1072:in `expected'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:1054:in `expr!'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:782:in `pseudo'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:660:in `simple_selector_sequence'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:634:in `_selector'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:607:in `selector'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:591:in `selector_sequence'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:516:in `ruleset'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:541:in `block_child'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:534:in `block_contents'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:70:in `stylesheet'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/scss/parser.rb:27:in `parse'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/engine.rb:342:in `_to_tree'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/engine.rb:274:in `to_tree'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:223:in `visit_import'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/tree/root_node.rb:20:in `render'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/engine.rb:315:in `_render'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.4/lib/sass/engine.rb:262:in `render'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `block in modified'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:30:in `block in temporary_multipath_handler'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:27:in `each'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:27:in `temporary_multipath_handler'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:17:in `block (2 levels) in run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:16:in `each'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:16:in `block in run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rb-fsevent-0.9.3/lib/rb-fsevent/fsevent.rb:43:in `call'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rb-fsevent-0.9.3/lib/rb-fsevent/fsevent.rb:43:in `run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:20:in `run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `call'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/bin/compass:23:in `load'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...              :\": expected pseudoclass or pseudoelement, was \" before, .cf:af...\"\A         on line 14 of /Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss\A         from line 5 of /Users/dennisbest/Sites/identified/turtle-wax/sass/main.scss"; }
