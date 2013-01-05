@@ -98,37 +98,44 @@ html {
 }
 
 /* line 2, ../sass/_app.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/_app.scss */
+#QuickPreviewOverlay {
+  top: 0px !important;
+}
+
+/* line 14, ../sass/_app.scss */
 .cf:before, .cf:after {
   content: " ";
   display: table;
 }
 
-/* line 6, ../sass/_app.scss */
+/* line 18, ../sass/_app.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 9, ../sass/_app.scss */
+/* line 21, ../sass/_app.scss */
 .cf {
   *zoom: 1;
 }
 
-/* line 14, ../sass/_app.scss */
+/* line 26, ../sass/_app.scss */
 body {
   font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
   font-size: 100%;
   color: #333;
 }
-/* line 19, ../sass/_app.scss */
+/* line 31, ../sass/_app.scss */
 body .container {
   width: 100%;
   text-align: center;
   padding: 0;
-}
-
-/* line 27, ../sass/_app.scss */
-#QuickPreviewOverlay {
-  top: 0px !important;
 }
 
 /* line 1, ../sass/_slideshow.scss */
