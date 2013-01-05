@@ -115,7 +115,7 @@ body .container {
 }
 
 /* line 32, ../sass/_app.scss */
-.button-blue {
+.button-blue, .hs-cta-wrapper a {
   font-size: 16px;
   color: #ffffff;
   padding: 20px 20px;
