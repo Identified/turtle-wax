@@ -140,6 +140,11 @@ body .container {
   padding: 0;
 }
 
+/* line 39, ../sass/_app.scss */
+h1, h2, h3, h4 {
+  font-family: "museo-slab","Rockwell","Times New Roman",serif;
+}
+
 /* line 1, ../sass/_slideshow.scss */
 ul.bjqs {
   position: relative;
