@@ -227,14 +227,14 @@ ol.bjqs-markers li a {
 ol.bjqs-markers li a {
   border-radius: 8px;
   padding: 8px;
-  background: #000;
+  background: #8adcf4;
   color: #fff;
   margin: 5px;
   text-decoration: none;
 }
 /* line 78, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
-  background: #999;
+  background: #5d96ff;
 }
 
 /* line 8, ../sass/main.scss */
