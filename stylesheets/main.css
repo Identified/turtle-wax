@@ -145,7 +145,7 @@ h1, h2, h3, h4 {
   font-family: "museo-slab","Rockwell","Times New Roman",serif;
 }
 
-/* line 1, ../sass/_slideshow.scss */
+/* line 1, ../sass/home/_slideshow.scss */
 ul.bjqs {
   position: relative;
   list-style: none;
@@ -155,54 +155,55 @@ ul.bjqs {
   display: none;
 }
 
-/* line 10, ../sass/_slideshow.scss */
+/* line 10, ../sass/home/_slideshow.scss */
 li.bjqs-slide {
   position: absolute;
   display: none;
 }
 
-/* line 15, ../sass/_slideshow.scss */
+/* line 15, ../sass/home/_slideshow.scss */
 ul.bjqs-controls {
   list-style: none;
   margin: 0;
   padding: 0;
   z-index: 9999;
 }
-/* line 21, ../sass/_slideshow.scss */
+/* line 21, ../sass/home/_slideshow.scss */
 ul.bjqs-controls.v-centered li a {
   position: absolute;
 }
-/* line 24, ../sass/_slideshow.scss */
+/* line 24, ../sass/home/_slideshow.scss */
 ul.bjqs-controls.v-centered li.bjqs-next a {
   right: 0;
 }
-/* line 27, ../sass/_slideshow.scss */
+/* line 27, ../sass/home/_slideshow.scss */
 ul.bjqs-controls.v-centered li.bjqs-prev a {
   left: 0;
 }
 
-/* line 33, ../sass/_slideshow.scss */
+/* line 33, ../sass/home/_slideshow.scss */
 ol.bjqs-markers {
   list-style: none;
   padding: 0;
   margin: 0;
   width: 100%;
 }
-/* line 38, ../sass/_slideshow.scss */
+/* line 38, ../sass/home/_slideshow.scss */
 ol.bjqs-markers.h-centered {
   text-align: center;
 }
-/* line 41, ../sass/_slideshow.scss */
+/* line 41, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li {
   display: inline;
 }
-/* line 43, ../sass/_slideshow.scss */
+/* line 43, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li a {
   display: inline-block;
 }
 
-/* line 49, ../sass/_slideshow.scss */
+/* line 49, ../sass/home/_slideshow.scss */
 .bjqs-caption {
+  background-color: rgba(0, 0, 0, 0.05);
   display: block;
   width: 400px;
   height: 100%;
@@ -212,12 +213,13 @@ ol.bjqs-markers li a {
   bottom: 0;
   top: 0;
 }
-/* line 58, ../sass/_slideshow.scss */
+/* line 59, ../sass/home/_slideshow.scss */
 .bjqs-caption p {
+  font-size: 25px;
   padding: 8px;
 }
 
-/* line 64, ../sass/_slideshow.scss */
+/* line 66, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li a {
   padding: 5px 10px;
   background: #000;
@@ -225,7 +227,12 @@ ol.bjqs-markers li a {
   margin: 5px;
   text-decoration: none;
 }
-/* line 71, ../sass/_slideshow.scss */
+/* line 73, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
   background: #999;
+}
+
+/* line 8, ../sass/main.scss */
+#QuickPreviewOverlay {
+  top: 0px !important;
 }

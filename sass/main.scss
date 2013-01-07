@@ -3,4 +3,8 @@
 @import "header";
 @import "home/content";
 @import "app";
-@import "slideshow";
+@import "home/slideshow";
+
+#QuickPreviewOverlay {
+  top: 0px !important;
+}

@@ -47,6 +47,7 @@ ol.bjqs-markers {
 }
 
 .bjqs-caption {
+  background-color: rgba(0, 0, 0, 0.05);
   display: block;
   width: 400px;
   height: 100%;
@@ -56,6 +57,7 @@ ol.bjqs-markers {
   bottom: 0;
   top: 0;
   p {
+    font-size: 25px;
     padding: 8px;
   }
 }
