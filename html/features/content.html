@@ -99,3 +99,15 @@
     </div>
   </div>
 </div>
+
+<script>
+  jQuery(document).ready(function($) {
+      // The BEST way to do tabs
+      $("#tabs div").bind('click', function (e) {
+          this.targetClass = $(e.currentTarget).attr("class");
+          $("#tabs div, #panels div").removeClass("selected");
+          $("." + this.targetClass).addClass('selected');
+      });
+
+  });
+</script>
