@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
         // animation values
         animtype : 'fade', // accepts 'fade' or 'slide'
         animduration : 450, // how fast the animation are
-        animspeed : 4000, // the delay between each slide
+        animspeed : 15000, // the delay between each slide
         automatic : true, // automatic
 
         // control and marker configuration
