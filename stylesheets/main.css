@@ -184,24 +184,27 @@ ul.bjqs-controls.v-centered li.bjqs-prev a {
 /* line 33, ../sass/home/_slideshow.scss */
 ol.bjqs-markers {
   list-style: none;
-  padding: 0;
+  padding: 0px 0px 5px 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 8px;
   margin: 0;
   width: 100%;
 }
-/* line 38, ../sass/home/_slideshow.scss */
+/* line 41, ../sass/home/_slideshow.scss */
 ol.bjqs-markers.h-centered {
   text-align: center;
 }
-/* line 41, ../sass/home/_slideshow.scss */
+/* line 44, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li {
   display: inline;
 }
-/* line 43, ../sass/home/_slideshow.scss */
+/* line 46, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li a {
   display: inline-block;
 }
 
-/* line 49, ../sass/home/_slideshow.scss */
+/* line 52, ../sass/home/_slideshow.scss */
 .bjqs-caption {
   background-color: rgba(0, 0, 0, 0.05);
   display: block;
@@ -213,21 +216,23 @@ ol.bjqs-markers li a {
   bottom: 0;
   top: 0;
 }
-/* line 59, ../sass/home/_slideshow.scss */
+/* line 62, ../sass/home/_slideshow.scss */
 .bjqs-caption p {
   font-size: 25px;
+  line-height: 30px;
   padding: 8px;
 }
 
-/* line 66, ../sass/home/_slideshow.scss */
+/* line 70, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li a {
-  padding: 5px 10px;
+  border-radius: 8px;
+  padding: 8px;
   background: #000;
   color: #fff;
   margin: 5px;
   text-decoration: none;
 }
-/* line 73, ../sass/home/_slideshow.scss */
+/* line 78, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
   background: #999;
 }
