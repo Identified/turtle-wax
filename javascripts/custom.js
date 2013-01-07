@@ -14,12 +14,6 @@ $('#features-content').load('http://employer-cdn.identified.com/html/features/co
 $('#home-content').load('http://employer-cdn.identified.com/html/home/content.html');
 
 
-// The BEST way to do tabs
-jQuery("#tabs div").bind('click', function (e) {
-this.targetClass = $(e.currentTarget).attr("class");
-$("#tabs div, #panels div").removeClass("selected");
-$("." + this.targetClass).addClass('selected');
-});
 
 // slideshow scripts
 
@@ -39,6 +33,13 @@ jQuery(document).ready(function($) {
         showcontrols : false, // show next and prev controls
         showmarkers : true, // Show individual slide markers
         centermarkers : false // Center markers horizontally
+    });
+    
+    // The BEST way to do tabs
+    $("#tabs div").bind('click', function (e) {
+        this.targetClass = $(e.currentTarget).attr("class");
+        $("#tabs div, #panels div").removeClass("selected");
+        $("." + this.targetClass).addClass('selected');
     });
 
 });
