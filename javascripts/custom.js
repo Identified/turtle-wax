@@ -17,8 +17,8 @@ $('#home-content').load('http://employer-cdn.identified.com/html/home/content.ht
 // The BEST way to do tabs
 jQuery("#tabs div").bind('click', function (e) {
 this.targetClass = $(e.currentTarget).attr("class");
-jQuery("#tabs div, #panels div").removeClass("selected");
-jQuery("." + this.targetClass).addClass('selected');
+$("#tabs div, #panels div").removeClass("selected");
+$("." + this.targetClass).addClass('selected');
 });
 
 // slideshow scripts
