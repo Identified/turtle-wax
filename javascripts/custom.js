@@ -8,7 +8,7 @@ jQuery('#tabs div')
 
 
 
-jQuery(document) 
+jQuery('#features-content') 
 .livequery(function(){ 
 
 		jQuery_new('#slideshow').bjqs({
