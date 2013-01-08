@@ -10,7 +10,7 @@
 
 
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
   jQuery('#footer').load('http://employer-cdn.identified.com/html/footer.html');
   jQuery('#header').load('http://employer-cdn.identified.com/html/header.html');
   jQuery('#features-content').load('http://employer-cdn.identified.com/html/features/content.html');
