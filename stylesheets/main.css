@@ -1,45 +1,45 @@
-/* line 2, ../sass/features/_content.scss */
+/* line 2, /Users/dennisbest/Sites/identified/turtle-wax/sass/features/_content.scss */
 #wrapper {
   width: 960px;
   margin: 0 auto;
   padding: 0;
 }
 
-/* line 7, ../sass/features/_content.scss */
+/* line 7, /Users/dennisbest/Sites/identified/turtle-wax/sass/features/_content.scss */
 #sidebar {
   width: 260px;
   float: left;
 }
 
-/* line 13, ../sass/features/_content.scss */
+/* line 13, /Users/dennisbest/Sites/identified/turtle-wax/sass/features/_content.scss */
 #tabs div {
   cursor: pointer;
   padding: 14px 0 14px 14px;
   color: #F83D19;
-  -webkit-transition: background-color 0.3s ease-in-out;
-  -moz-transition: background-color 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out;
-  -ms-transition: background-color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
   border-top: 1px #cecece solid;
 }
-/* line 24, ../sass/features/_content.scss */
+/* line 24, /Users/dennisbest/Sites/identified/turtle-wax/sass/features/_content.scss */
 #tabs div:hover {
   color: #fff;
   background-color: #F83D19;
 }
 
-/* line 31, ../sass/features/_content.scss */
+/* line 31, /Users/dennisbest/Sites/identified/turtle-wax/sass/features/_content.scss */
 #panels {
   width: 700px;
   float: left;
 }
-/* line 35, ../sass/features/_content.scss */
+/* line 35, /Users/dennisbest/Sites/identified/turtle-wax/sass/features/_content.scss */
 #panels div {
   display: none;
   opacity: 0;
 }
-/* line 39, ../sass/features/_content.scss */
+/* line 39, /Users/dennisbest/Sites/identified/turtle-wax/sass/features/_content.scss */
 #panels div.selected {
   opacity: 1;
   display: block;
@@ -50,36 +50,36 @@
   transition: opacity 1s ease-in-out;
 }
 
-/* line 1, ../sass/_header.scss */
-#header {
+/* line 1, /Users/dennisbest/Sites/identified/turtle-wax/sass/_header.scss */
+#hr-header {
   border-bottom: 1px solid #cecece;
   height: 50px;
   width: 100%;
 }
 
-/* line 7, ../sass/_header.scss */
+/* line 7, /Users/dennisbest/Sites/identified/turtle-wax/sass/_header.scss */
 #nav, #content {
   margin: 0px auto;
   width: 960px;
 }
 
-/* line 12, ../sass/_header.scss */
+/* line 12, /Users/dennisbest/Sites/identified/turtle-wax/sass/_header.scss */
 #content {
   margin: 10px auto;
 }
 
-/* line 16, ../sass/_header.scss */
+/* line 16, /Users/dennisbest/Sites/identified/turtle-wax/sass/_header.scss */
 #logo {
   float: left;
   padding: 10px 0px;
 }
 
-/* line 21, ../sass/_header.scss */
+/* line 21, /Users/dennisbest/Sites/identified/turtle-wax/sass/_header.scss */
 #menu {
   float: right;
 }
 
-/* line 25, ../sass/_header.scss */
+/* line 25, /Users/dennisbest/Sites/identified/turtle-wax/sass/_header.scss */
 #menu a {
   display: inline-block;
   font-size: 15px;
@@ -87,65 +87,65 @@
   padding: 15px 10px 0px 10px;
   color: #616868;
 }
-/* line 32, ../sass/_header.scss */
+/* line 32, /Users/dennisbest/Sites/identified/turtle-wax/sass/_header.scss */
 #menu a:hover {
   background-color: #5d96ff;
   color: #ffffff;
 }
 
-/* line 2, ../sass/home/_content.scss */
+/* line 2, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_content.scss */
 html {
   font-size: 12px;
 }
 
-/* line 2, ../sass/_app.scss */
+/* line 2, /Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 9, ../sass/_app.scss */
+/* line 9, /Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss */
 #QuickPreviewOverlay {
   top: 0px !important;
 }
 
-/* line 14, ../sass/_app.scss */
+/* line 14, /Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss */
 .cf:before, .cf:after {
   content: " ";
   display: table;
 }
 
-/* line 18, ../sass/_app.scss */
+/* line 18, /Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 21, ../sass/_app.scss */
+/* line 21, /Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss */
 .cf {
   *zoom: 1;
 }
 
-/* line 26, ../sass/_app.scss */
+/* line 26, /Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss */
 body {
   font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #666;
 }
-/* line 32, ../sass/_app.scss */
+/* line 32, /Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss */
 body .container {
   width: 100%;
   text-align: center;
   padding: 0;
 }
 
-/* line 39, ../sass/_app.scss */
+/* line 39, /Users/dennisbest/Sites/identified/turtle-wax/sass/_app.scss */
 h1, h2, h3, h4 {
   font-family: "museo-slab","Rockwell","Times New Roman",serif;
 }
 
-/* line 1, ../sass/home/_slideshow.scss */
+/* line 1, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ul.bjqs {
   position: relative;
   list-style: none;
@@ -155,33 +155,33 @@ ul.bjqs {
   display: none;
 }
 
-/* line 10, ../sass/home/_slideshow.scss */
+/* line 10, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 li.bjqs-slide {
   position: absolute;
   display: none;
 }
 
-/* line 15, ../sass/home/_slideshow.scss */
+/* line 15, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ul.bjqs-controls {
   list-style: none;
   margin: 0;
   padding: 0;
   z-index: 9999;
 }
-/* line 21, ../sass/home/_slideshow.scss */
+/* line 21, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ul.bjqs-controls.v-centered li a {
   position: absolute;
 }
-/* line 24, ../sass/home/_slideshow.scss */
+/* line 24, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ul.bjqs-controls.v-centered li.bjqs-next a {
   right: 0;
 }
-/* line 27, ../sass/home/_slideshow.scss */
+/* line 27, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ul.bjqs-controls.v-centered li.bjqs-prev a {
   left: 0;
 }
 
-/* line 33, ../sass/home/_slideshow.scss */
+/* line 33, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ol.bjqs-markers {
   list-style: none;
   padding: 0px 0px 5px 0px;
@@ -191,20 +191,20 @@ ol.bjqs-markers {
   margin: 0;
   width: 100%;
 }
-/* line 41, ../sass/home/_slideshow.scss */
+/* line 41, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ol.bjqs-markers.h-centered {
   text-align: center;
 }
-/* line 44, ../sass/home/_slideshow.scss */
+/* line 44, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ol.bjqs-markers li {
   display: inline;
 }
-/* line 46, ../sass/home/_slideshow.scss */
+/* line 46, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ol.bjqs-markers li a {
   display: inline-block;
 }
 
-/* line 52, ../sass/home/_slideshow.scss */
+/* line 52, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 .bjqs-caption {
   background-color: rgba(0, 0, 0, 0.05);
   display: block;
@@ -216,14 +216,14 @@ ol.bjqs-markers li a {
   bottom: 0;
   top: 0;
 }
-/* line 62, ../sass/home/_slideshow.scss */
+/* line 62, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 .bjqs-caption p {
   font-size: 25px;
   line-height: 30px;
   padding: 8px;
 }
 
-/* line 70, ../sass/home/_slideshow.scss */
+/* line 70, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ol.bjqs-markers li a {
   border-radius: 8px;
   padding: 8px;
@@ -232,7 +232,7 @@ ol.bjqs-markers li a {
   margin: 5px;
   text-decoration: none;
 }
-/* line 78, ../sass/home/_slideshow.scss */
+/* line 78, /Users/dennisbest/Sites/identified/turtle-wax/sass/home/_slideshow.scss */
 ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
   background: #5d96ff;
 }
