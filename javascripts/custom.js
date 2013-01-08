@@ -6,8 +6,8 @@ jQuery('#tabs div')
 		return false; 
 }); 
 
-jQuery('#slideshow') 
-.livequery('on', function(event) { 
+jQuery(document) 
+.livequery(function() { 
 		jQuery_new('#slideshow').bjqs({
 				height      : 400,
 				width       : 960,
@@ -22,5 +22,5 @@ jQuery('#slideshow')
 				showmarkers : true, // Show individual slide markers
 				centermarkers : false // Center markers horizontally
 		}); 
-}); 
+});
 
