@@ -11,12 +11,12 @@
   float: left;
   clear: both;
 }
-/* line 12, ../sass/features/_content.scss */
-#sidebar .bluebutton a.cta_button, #sidebar .greenbutton a.cta_button {
+/* line 11, ../sass/features/_content.scss */
+#sidebar .full {
   width: 260px;
 }
 
-/* line 18, ../sass/features/_content.scss */
+/* line 17, ../sass/features/_content.scss */
 #tabs div {
   cursor: pointer;
   padding: 14px 0 14px 14px;
@@ -28,24 +28,24 @@
   transition: background-color .3s ease-in-out;
   border-top: 1px #cecece solid;
 }
-/* line 29, ../sass/features/_content.scss */
+/* line 28, ../sass/features/_content.scss */
 #tabs div:hover {
   color: #fff;
   background-color: #F83D19;
 }
 
-/* line 37, ../sass/features/_content.scss */
+/* line 36, ../sass/features/_content.scss */
 #panels {
   width: 700px;
   float: left;
 }
-/* line 41, ../sass/features/_content.scss */
+/* line 40, ../sass/features/_content.scss */
 #panels div {
   display: none;
   opacity: 0;
   padding: 0 0 0 40px;
 }
-/* line 46, ../sass/features/_content.scss */
+/* line 45, ../sass/features/_content.scss */
 #panels div.selected {
   opacity: 1;
   display: block;
@@ -510,10 +510,6 @@ h1, h2, h3, h4 {
 .full {
   display: block;
   width: 100%;
-}
-/* line 46, ../sass/_app.scss */
-#sidebar .full {
-  width: 260px;
 }
 
 /* line 1, ../sass/home/_slideshow.scss */

@@ -7,10 +7,9 @@
 #sidebar {
   width                  : 260px;
   float                  : left;
-  clear                  :both;
-  
-  .bluebutton a.cta_button, .greenbutton a.cta_button {
-    width: 260px;
+  clear                  : both;
+  .full {
+    width                : 260px;
   }
 }
 
