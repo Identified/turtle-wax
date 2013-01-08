@@ -7,7 +7,7 @@ jQuery('#tabs div')
 }); 
 
 
-$('#home-content').load(function() {
+jQuery('#home-content').load(function() {
 	alert('foo');
 	
 	jQuery_new('#slideshow').bjqs({
