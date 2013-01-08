@@ -8,6 +8,7 @@
   width                  : 260px;
   float                  : left;
   clear                  : both;
+  padding-top: 40px;
   .full, .full a {
     width                : 260px;
   }
@@ -23,11 +24,11 @@
     -o-transition        : background-color .3s ease-in-out;
     -ms-transition       : background-color .3s ease-in-out;
     transition           : background-color .3s ease-in-out;
-    border-top: 1px #cecece solid;
+    border-top: 1px #f1f1f1 solid;
 
     &:hover {
-      color              : #fff;
-      background-color   : #F83D19;
+      color: #333;
+      background-color: rgba(213, 213, 213, 0.36);
     }
   }
 }
@@ -36,6 +37,7 @@
 #panels {
   width                  : 700px;
   float                  : left;
+  border-left: 1px solid #f1f1f1;
 
   div {
     display              : none;

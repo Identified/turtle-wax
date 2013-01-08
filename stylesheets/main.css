@@ -10,13 +10,14 @@
   width: 260px;
   float: left;
   clear: both;
+  padding-top: 40px;
 }
-/* line 11, ../sass/features/_content.scss */
+/* line 12, ../sass/features/_content.scss */
 #sidebar .full, #sidebar .full a {
   width: 260px;
 }
 
-/* line 17, ../sass/features/_content.scss */
+/* line 18, ../sass/features/_content.scss */
 #tabs div {
   cursor: pointer;
   padding: 14px 0 14px 14px;
@@ -26,26 +27,27 @@
   -o-transition: background-color .3s ease-in-out;
   -ms-transition: background-color .3s ease-in-out;
   transition: background-color .3s ease-in-out;
-  border-top: 1px #cecece solid;
+  border-top: 1px #f1f1f1 solid;
 }
-/* line 28, ../sass/features/_content.scss */
+/* line 29, ../sass/features/_content.scss */
 #tabs div:hover {
-  color: #fff;
-  background-color: #F83D19;
+  color: #333;
+  background-color: rgba(213, 213, 213, 0.36);
 }
 
-/* line 36, ../sass/features/_content.scss */
+/* line 37, ../sass/features/_content.scss */
 #panels {
   width: 700px;
   float: left;
+  border-left: 1px solid #f1f1f1;
 }
-/* line 40, ../sass/features/_content.scss */
+/* line 42, ../sass/features/_content.scss */
 #panels div {
   display: none;
   opacity: 0;
   padding: 0 0 0 40px;
 }
-/* line 45, ../sass/features/_content.scss */
+/* line 47, ../sass/features/_content.scss */
 #panels div.selected {
   opacity: 1;
   display: block;
@@ -498,19 +500,19 @@ body {
   line-height: 18px;
   color: #666;
 }
-/* line 32, ../sass/_app.scss */
+/* line 31, ../sass/_app.scss */
 body .container {
   width: 100%;
   text-align: center;
   padding: 0;
 }
 
-/* line 39, ../sass/_app.scss */
+/* line 38, ../sass/_app.scss */
 h1, h2, h3, h4 {
   font-family: "museo-slab","Rockwell","Times New Roman",serif;
 }
 
-/* line 43, ../sass/_app.scss */
+/* line 42, ../sass/_app.scss */
 .full {
   display: block;
   width: 100%;

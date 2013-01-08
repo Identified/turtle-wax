@@ -1,39 +1,39 @@
 #hr-header {
-  border-bottom : 1px solid #cecece;
-  height        : 120px;
-  width         : 100%;
+  border-bottom      : 1px solid #cecece;
+  height             : 120px;
+  width              : 100%;
 }
 
 #nav, #content {
-  margin: 0px auto;
-  width: 960px;
+  margin             : 0px auto;
+  width              : 960px;
 }
 
 #content {
-  margin: 10px auto;
+  margin             : 10px auto;
 }
 
 #logo {
-  float:left;
-  padding: 0;
-  margin-top: 43px;
-  height: 120px;
+  float              : left;
+  padding            : 0;
+  margin-top         : 43px;
+  height             : 120px;
 }
 
 #menu {
-  float:right;
+  float              : right;
 }
 
 #menu a {
-  display: inline-block;
-  font-size: 15px;
-  height: 120px;
-  line-height: 120px;
-  padding: 0 20px;
-  color: #616868;
+  display            : inline-block;
+  font-size          : 15px;
+  height             : 120px;
+  line-height        : 120px;
+  padding            : 0 20px;
+  color              : #616868;
 
   &:hover {
-    background-color: #b9ecff;
-    color: #616868;
+    background-color : #b9ecff;
+    color            : #616868;
   }
 }
