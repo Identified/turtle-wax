@@ -12,7 +12,7 @@
   clear: both;
 }
 /* line 11, ../sass/features/_content.scss */
-#sidebar .full {
+#sidebar .full, #sidebar .full a {
   width: 260px;
 }
 
