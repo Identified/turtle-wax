@@ -13,8 +13,12 @@ function loadContents(url, callback) {
 		}
 } 
 
-loadContents('http://employer-cdn.identified.com/html/hr-footer.html', function(footer) {  
-   jQuery_new('#hr-footer').html(footer); 
+// loadContents('http://employer-cdn.identified.com/html/hr-footer.html', function(footer) {  
+//    jQuery_new('#hr-footer').html(footer); 
+// });
+
+loadContents('https://raw.github.com/Identified/turtle-wax/gh-pages/html/hr-footer.html', function(footer) {  
+	 jQuery_new('#hr-footer').html(footer); 
 });
 
 loadContents('http://employer-cdn.identified.com/html/hr-header.html', function(header) {  
