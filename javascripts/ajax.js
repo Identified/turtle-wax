@@ -13,10 +13,10 @@ function loadContents(url, callback) {
 		}
 } 
 
-loadContents('http://employer-cdn.identified.com/html/footer.html', function(footer) {  
+loadContents('http://employer-cdn.identified.com/html/hr-footer.html', function(footer) {  
    jQuery_new('#hr-footer').html(footer); 
 });
 
-loadContents('http://employer-cdn.identified.com/html/header.html', function(header) {  
+loadContents('http://employer-cdn.identified.com/html/hr-header.html', function(header) {  
    jQuery_new('#hr-header').html(header);
 });
