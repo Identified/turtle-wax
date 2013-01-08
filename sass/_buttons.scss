@@ -4,7 +4,6 @@
 	display: inline-block;
 	white-space:nowrap;
 	margin-top: 20px;
-
 	background-color: transparent;
 	background-origin: border-box;
 	background-image:  -webkit-gradient(linear,  50% 100%,  50%   0%,  color-stop(0.000, hsla(213.7, 73.3%, 39.4%, 1.00)) , color-stop(1.000, hsla(219.5, 86.1%, 64.7%, 1.00)) ); /* Saf4+, Chrome */
@@ -26,8 +25,6 @@
 	box-shadow:inset 0px 1px 0px hsla(0.0, 0.0%, 100.0%, 0.40);
 	opacity: 1.000;
 }
-
-
 
 .bluebutton a.cta_button:active, .bluebutton a.cta_button:hover{
 	background-color: transparent;
@@ -53,6 +50,7 @@
 	padding: 13px 20px;
 	display: block/9;
 	display: inline-block;
+	margin-top: 20px;
 	white-space:nowrap;
 	background-color: transparent;
 	background-origin: border-box;
@@ -97,14 +95,12 @@
 	text-shadow: 0px 1px 0px hsla(0.0, 0.0%, 0.0%, 0.75);
 }
 
-
-
-
 .redbutton a.cta_button {
 	padding: 13px 20px;
 	display: block/9;
 	display: inline-block;
 	white-space:nowrap;
+	margin-top: 20px;
 	background-color: transparent;
 	background-origin: border-box;
 	background-image:  -webkit-gradient(linear,  50% 100%,  50%   0%,  color-stop(0.000, hsla(3.3, 77.2%, 53.5%, 1.00)) , color-stop(1.000, hsla(4.1, 100.0%, 68.7%, 1.00)) ); /* Saf4+, Chrome */
@@ -127,7 +123,6 @@
 	opacity: 1.000;
 }
 
-
 .redbutton a.cta_button:active, .redbutton a.cta_button:hover {
 	background-color: transparent;
 	background-origin: border-box;
@@ -148,13 +143,12 @@
 	text-shadow: 0px 1px 0px hsla(0.0, 0.0%, 0.0%, 0.75);
 }
 
-
-
 .greybutton a.cta_button {
 	padding: 13px 20px;
 	display: block/9;
 	display: inline-block;
 	white-space:nowrap;
+	margin-top: 20px;
 	background-color: transparent;
 	background-origin: border-box;
 	background-image:  -webkit-gradient(linear,  50% 100%,  50%   0%,  color-stop(0.000, hsla(0.0, 0.0%, 55.7%, 1.00)) , color-stop(1.000, hsla(0.0, 0.0%, 88.4%, 1.00)) ); /* Saf4+, Chrome */
