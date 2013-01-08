@@ -14,9 +14,9 @@ function loadContents(url, callback) {
 } 
 
 loadContents('http://employer-cdn.identified.com/html/footer.html', function(footer) {  
-   jQuery_new('#footer').html(footer); 
+   jQuery_new('#hr-footer').html(footer); 
 });
 
 loadContents('http://employer-cdn.identified.com/html/header.html', function(header) {  
-   jQuery_new('#header').html(header);
+   jQuery_new('#hr-header').html(header);
 });
