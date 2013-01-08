@@ -6,16 +6,16 @@
 // 		return false; 
 // }); 
 
-$('#features-content').ready(function() {	
-	this.targetClass = $(event.currentTarget).attr("class");
-	$("#tabs div, #panels div").removeClass("selected");
-	$("." + this.targetClass).addClass('selected');
+jQuery('#features-content').ready(function() {	
+	this.targetClass = jQuery_new(event.currentTarget).attr("class");
+	jQuery_new("#tabs div, #panels div").removeClass("selected");
+	jQuery_new("." + this.targetClass).addClass('selected');
 	return false; 
 });
 
 
-$('#home-content').ready(function() {	
-	$('#slideshow').bjqs({
+jQuery('#home-content').ready(function() {	
+	jQuery_new('#slideshow').bjqs({
 			height      : 400,
 			width       : 960,
 			responsive  : true,
