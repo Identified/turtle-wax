@@ -99,23 +99,25 @@
 #logo {
   float: left;
   padding: 0;
+  margin-top: 43px;
   height: 120px;
 }
 
-/* line 22, ../sass/_header.scss */
+/* line 23, ../sass/_header.scss */
 #menu {
   float: right;
 }
 
-/* line 26, ../sass/_header.scss */
+/* line 27, ../sass/_header.scss */
 #menu a {
   display: inline-block;
   font-size: 15px;
   height: 120px;
+  line-height: 120px;
   padding: 0 20px;
   color: #616868;
 }
-/* line 33, ../sass/_header.scss */
+/* line 35, ../sass/_header.scss */
 #menu a:hover {
   background-color: #b9ecff;
   color: #ffffff;
