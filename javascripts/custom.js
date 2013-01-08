@@ -9,15 +9,15 @@
 
 
 
-jQuery_144(document).ready(function() {
-  jQuery_144('#footer').load('http://employer-cdn.identified.com/html/footer.html');
-  jQuery_144('#header').load('http://employer-cdn.identified.com/html/header.html');
-  jQuery_144('#features-content').load('http://employer-cdn.identified.com/html/features/content.html');
-  jQuery_144('#home-content').load('http://employer-cdn.identified.com/html/home/content.html');
+jQuery(document).ready(function() {
+  $('#footer').load('http://employer-cdn.identified.com/html/footer.html');
+  $('#header').load('http://employer-cdn.identified.com/html/header.html');
+  $('#features-content').load('http://employer-cdn.identified.com/html/features/content.html');
+  $('#home-content').load('http://employer-cdn.identified.com/html/home/content.html');
 });
 
 jQuery("#tabs div").bind('click', function (e) {
-	this.targetClass = jQuery(e.currentTarget).attr("class");
-	jQuery("#tabs div, #panels div").removeClass("selected");
-	jQuery("." + this.targetClass).addClass('selected');
+	this.targetClass = $(e.currentTarget).attr("class");
+	$("#tabs div, #panels div").removeClass("selected");
+	$("." + this.targetClass).addClass('selected');
 });
