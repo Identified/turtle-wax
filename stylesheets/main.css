@@ -511,6 +511,10 @@ h1, h2, h3, h4 {
   display: block;
   width: 100%;
 }
+/* line 46, ../sass/_app.scss */
+#sidebar .full {
+  width: 260px;
+}
 
 /* line 1, ../sass/home/_slideshow.scss */
 ul.bjqs {
