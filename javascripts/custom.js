@@ -14,10 +14,12 @@ jQuery(document).ready(function() {
   $('#header').load('http://employer-cdn.identified.com/html/header.html');
   $('#features-content').load('http://employer-cdn.identified.com/html/features/content.html');
   $('#home-content').load('http://employer-cdn.identified.com/html/home/content.html');
-});
 
-jQuery("#tabs div").bind('click', function (e) {
-	this.targetClass = $(e.currentTarget).attr("class");
-	$("#tabs div, #panels div").removeClass("selected");
-	$("." + this.targetClass).addClass('selected');
+  
+  $("#tabs div").bind('click', function (e) {
+	  this.targetClass = $(e.currentTarget).attr("class");
+	  $("#tabs div, #panels div").removeClass("selected");
+	  $("." + this.targetClass).addClass('selected');
+  });
+  
 });
