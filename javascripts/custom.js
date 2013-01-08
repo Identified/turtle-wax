@@ -8,7 +8,7 @@
 // Uncomment this to work on stuff via GitHub
 
 
-jq142('#footer').load('http://employer-cdn.identified.com/html/footer.html');
-jq142('#header').load('http://employer-cdn.identified.com/html/header.html');
-jq142('#features-content').load('http://employer-cdn.identified.com/html/features/content.html');
-jq142('#home-content').load('http://employer-cdn.identified.com/html/home/content.html');
+$('#footer').load('http://employer-cdn.identified.com/html/footer.html');
+$('#header').load('http://employer-cdn.identified.com/html/header.html');
+$('#features-content').load('http://employer-cdn.identified.com/html/features/content.html');
+$('#home-content').load('http://employer-cdn.identified.com/html/home/content.html');
