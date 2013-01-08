@@ -1,4 +1,4 @@
-jQuery_new('#tabs div') 
+$('#tabs div') 
 .livequery('click', function(event) { 
 		this.targetClass = jQuery_new(event.currentTarget).attr("class");
 		jQuery_new("#tabs div, #panels div").removeClass("selected");
