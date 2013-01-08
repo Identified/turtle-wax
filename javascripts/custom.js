@@ -9,7 +9,6 @@
 
 
 
-var jQuery_144 = $.noConflict(true);
 jQuery_144(document).ready(function() {
   jQuery_144('#footer').load('http://employer-cdn.identified.com/html/footer.html');
   jQuery_144('#header').load('http://employer-cdn.identified.com/html/header.html');
@@ -17,7 +16,6 @@ jQuery_144(document).ready(function() {
   jQuery_144('#home-content').load('http://employer-cdn.identified.com/html/home/content.html');
 });
 
-var jQuery = $.noConflict(true);
 jQuery("#tabs div").bind('click', function (e) {
 	this.targetClass = jQuery(e.currentTarget).attr("class");
 	jQuery("#tabs div, #panels div").removeClass("selected");
