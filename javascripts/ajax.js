@@ -30,6 +30,3 @@ loadContents('http://employer-cdn.identified.com/html/features/content.html', fu
    jQuery_new('#features-content').html(featurescontent); 
 });
 
-loadContents('http://employer-cdn.identified.com/html/home/content.html', function(homecontent) {  
-   jQuery_new('#home-content').html(homecontent); 
-});
