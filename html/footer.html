@@ -10,15 +10,3 @@
   Copyright 2012 Identified
   </span>
 </div>
-
-<script>
-$(document).ready(function() {
-
-  $("#tabs div").bind('click', function (e) {
-    this.targetClass = $(e.currentTarget).attr("class");
-    $("#tabs div, #panels div").removeClass("selected");
-    $("." + this.targetClass).addClass('selected');
-  });
-
-});
-</script>
