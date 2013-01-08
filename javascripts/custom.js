@@ -7,8 +7,11 @@ jQuery('#tabs div')
 }); 
 
 
-jQuery_new(document).ready(function() {
-  	jQuery_new('#slideshow').bjqs({
+
+jQuery(document) 
+.livequery(function(){ 
+
+		jQuery_new('#slideshow').bjqs({
   			height      : 400,
   			width       : 960,
   			responsive  : true,
