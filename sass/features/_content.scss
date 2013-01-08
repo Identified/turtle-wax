@@ -9,6 +9,8 @@
   float                  : left;
   clear                  : both;
   padding-top: 40px;
+  border-right            : 1px solid #f1f1f1;
+
   .full, .full a {
     width                : 260px;
   }
@@ -17,18 +19,26 @@
 #tabs {
   div {
     cursor               : pointer;
-    padding              : 14px 0 14px 14px;
-    color                : #F83D19;
+    padding              : 18px 0 18px 14px;
     -webkit-transition   : background-color .3s ease-in-out;
     -moz-transition      : background-color .3s ease-in-out;
     -o-transition        : background-color .3s ease-in-out;
     -ms-transition       : background-color .3s ease-in-out;
     transition           : background-color .3s ease-in-out;
-    border-top: 1px #f1f1f1 solid;
+    border-top           : 1px #f1f1f1 solid;
+    color: #333;
+
 
     &:hover {
       color: #333;
       background-color: rgba(213, 213, 213, 0.36);
+    }
+    &.selected {
+      color                : #F83D19;
+      &:hover {
+        color: #333;
+        background-color: rgba(213, 213, 213, 0.36);
+      }
     }
   }
 }
@@ -37,7 +47,6 @@
 #panels {
   width                  : 700px;
   float                  : left;
-  border-left: 1px solid #f1f1f1;
 
   div {
     display              : none;
