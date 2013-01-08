@@ -8,7 +8,3 @@
 // Uncomment this to work on stuff via GitHub
 
 
-jQuery_142('#footer').load('http://employer-cdn.identified.com/html/footer.html');
-jQuery_142('#header').load('http://employer-cdn.identified.com/html/header.html');
-jQuery_142('#features-content').load('http://employer-cdn.identified.com/html/features/content.html');
-jQuery_142('#home-content').load('http://employer-cdn.identified.com/html/home/content.html');
