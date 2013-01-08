@@ -18,18 +18,18 @@ function loadContents(url, callback) {
 		}
 } 
 
-loadContents('http://employer-cdn.identified.com/html/footer.html', function(results) {  
-   jQuery_new('#footer').html(results); 
+loadContents('http://employer-cdn.identified.com/html/footer.html', function(footer) {  
+   jQuery_new('#footer').html(footer); 
 });
 
-loadContents('http://employer-cdn.identified.com/html/header.html', function(results) {  
-   jQuery_new('#header').html(results); 
+loadContents('http://employer-cdn.identified.com/html/header.html', function(header) {  
+   jQuery_new('#header').html(header); 
 });
 
-loadContents('http://employer-cdn.identified.com/html/features/content.html', function(results) {  
-   jQuery_new('#features-content').html(results); 
+loadContents('http://employer-cdn.identified.com/html/features/content.html', function(featurescontent) {  
+   jQuery_new('#features-content').html(featurescontent); 
 });
 
-loadContents('http://employer-cdn.identified.com/html/home/content.html', function(results) {  
-   jQuery_new('#home-content').html(results); 
+loadContents('http://employer-cdn.identified.com/html/home/content.html', function(homecontent) {  
+   jQuery_new('#home-content').html(homecontent); 
 });
