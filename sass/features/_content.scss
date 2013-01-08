@@ -41,6 +41,7 @@
   div {
     display              : none;
     opacity              : 0;
+    padding              : 0 0 0 40px;
 
     &.selected {
       opacity            : 1;
