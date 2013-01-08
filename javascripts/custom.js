@@ -6,18 +6,24 @@ jQuery('#tabs div')
 		return false; 
 }); 
 
-jQuery_new('#slideshow').bjqs({
-		height      : 400,
-		width       : 960,
-		responsive  : true,
-		// animation values
-		animtype : 'fade', // accepts 'fade' or 'slide'
-		animduration : 450, // how fast the animation are
-		animspeed : 10000, // the delay be horizontally
-		showcontrols : false, // show next and prev controls
-		centercontrols : false, // center controls verically
-		nexttext : 'Next', // Text for 'next' button (can use HTML)
-		prevtext : 'Prev', // Text for 'previous' button (can use HTML)
-		showmarkers : true, // Show individual slide markers
-		centermarkers : false // Center markers horizontally
-});
+jQuery('#features-content') 
+.livequery(function(){  
+		jQuery_new('#slideshow').bjqs({
+				height      : 400,
+				width       : 960,
+				responsive  : true,
+				// animation values
+				animtype : 'fade', // accepts 'fade' or 'slide'
+				animduration : 450, // how fast the animation are
+				animspeed : 10000, // the delay be horizontally
+				showcontrols : false, // show next and prev controls
+				centercontrols : false, // center controls verically
+				nexttext : 'Next', // Text for 'next' button (can use HTML)
+				prevtext : 'Prev', // Text for 'previous' button (can use HTML)
+				showmarkers : true, // Show individual slide markers
+				centermarkers : false // Center markers horizontally
+		});
+}); 
+
+
+
