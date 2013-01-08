@@ -15,7 +15,8 @@
 
 #logo {
   float:left;
-  padding: 10px 0px;
+  padding: 0;
+  height: 120px;
 }
 
 #menu {
@@ -25,12 +26,12 @@
 #menu a {
   display: inline-block;
   font-size: 15px;
-  height: 50px;
-  padding: 15px 10px 0px 10px;
+  height: 120px;
+  padding: 0 20px;
   color: #616868;
 
   &:hover {
-    background-color: #5d96ff;
+    background-color: ##b9ecff;
     color: #ffffff;
   }
 }

@@ -1,318 +1,100 @@
-/* line 2, ../sass/features/_content.scss */
-#wrapper {
-  width: 960px;
-  margin: 0 auto;
-  padding: 0;
-}
+/*
+Syntax error: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was "##b9ecff;"
+        on line 34 of /Users/dennisbest/Sites/identified/turtle-wax/sass/_header.scss
+        from line 3 of /Users/dennisbest/Sites/identified/turtle-wax/sass/main.scss
 
-/* line 7, ../sass/features/_content.scss */
-#sidebar {
-  width: 260px;
-  float: left;
-  clear: both;
-}
-
-/* line 14, ../sass/features/_content.scss */
-#tabs div {
-  cursor: pointer;
-  padding: 14px 0 14px 14px;
-  color: #F83D19;
-  -webkit-transition: background-color 0.3s ease-in-out;
-  -moz-transition: background-color 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out;
-  -ms-transition: background-color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
-  border-top: 1px #cecece solid;
-}
-/* line 25, ../sass/features/_content.scss */
-#tabs div:hover {
-  color: #fff;
-  background-color: #F83D19;
-}
-
-/* line 32, ../sass/features/_content.scss */
-#panels {
-  width: 700px;
-  float: left;
-}
-/* line 36, ../sass/features/_content.scss */
-#panels div {
-  display: none;
-  opacity: 0;
-}
-/* line 40, ../sass/features/_content.scss */
-#panels div.selected {
-  opacity: 1;
-  display: block;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  -ms-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-/* line 3, ../sass/_footer.scss */
-#hr-footer {
-  background-color: #fafafa;
-  border-top: 1px #61686b solid;
-  padding-top: 20px;
-}
-/* line 8, ../sass/_footer.scss */
-#hr-footer .col {
-  width: 30%;
-  float: left;
-}
-/* line 12, ../sass/_footer.scss */
-#hr-footer a.icon {
-  line-height: 32px;
-  color: #61686b;
-  display: block;
-  float: left;
-  clear: both;
-}
-/* line 18, ../sass/_footer.scss */
-#hr-footer a.icon img {
-  height: 24px;
-}
-
-/* line 1, ../sass/_header.scss */
-#hr-header {
-  border-bottom: 1px solid #cecece;
-  height: 50px;
-  width: 100%;
-}
-
-/* line 7, ../sass/_header.scss */
-#nav, #content {
-  margin: 0px auto;
-  width: 960px;
-}
-
-/* line 12, ../sass/_header.scss */
-#content {
-  margin: 10px auto;
-}
-
-/* line 16, ../sass/_header.scss */
-#logo {
-  float: left;
-  padding: 10px 0px;
-}
-
-/* line 21, ../sass/_header.scss */
-#menu {
-  float: right;
-}
-
-/* line 25, ../sass/_header.scss */
-#menu a {
-  display: inline-block;
-  font-size: 15px;
-  height: 50px;
-  padding: 15px 10px 0px 10px;
-  color: #616868;
-}
-/* line 32, ../sass/_header.scss */
-#menu a:hover {
-  background-color: #5d96ff;
-  color: #ffffff;
-}
-
-/* line 2, ../sass/home/_content.scss */
-html {
-  font-size: 12px;
-}
-
-/* line 6, ../sass/home/_content.scss */
-#images, #amn_healthcare, #pinstripe_healthcare, #kelly_healthcare, #cornerstone_healthcare, #accolo, #md_enterprises, #radnet, #allied_health_search {
-  display: inline-block;
-  width: 100px;
-  height: 60px;
-}
-
-/* line 12, ../sass/home/_content.scss */
-#amn_healthcare {
-  background: url("http://employer-cdn.identified.com/images/amn_healthcare_grayscale.png") no-repeat;
-}
-
-/* line 18, ../sass/home/_content.scss */
-#pinstripe_healthcare {
-  background: url("http://employer-cdn.identified.com/images/pinstripe_healthcare_grayscale.png") no-repeat;
-}
-
-/* line 24, ../sass/home/_content.scss */
-#kelly_healthcare {
-  background: url("http://employer-cdn.identified.com/images/kelly_healthcare_grayscale.png") no-repeat;
-  width: 131px;
-}
-
-/* line 31, ../sass/home/_content.scss */
-#cornerstone_healthcare {
-  background: url("http://employer-cdn.identified.com/images/cornerstone_healthcare_grayscale.png") no-repeat;
-  width: 166px;
-}
-
-/* line 38, ../sass/home/_content.scss */
-#accolo {
-  background: url("http://employer-cdn.identified.com/images/accolo_grayscale.png") no-repeat;
-  width: 90px;
-}
-
-/* line 45, ../sass/home/_content.scss */
-#md_enterprises {
-  background: url("http://employer-cdn.identified.com/images/md_enterprises_grayscale.png") no-repeat;
-}
-
-/* line 51, ../sass/home/_content.scss */
-#radnet {
-  background: url("http://employer-cdn.identified.com/images/radnet_grayscale.png") no-repeat;
-}
-
-/* line 57, ../sass/home/_content.scss */
-#allied_health_search {
-  background: url("http://employer-cdn.identified.com/images/allied_health_search_grayscale.png") no-repeat;
-}
-
-/* line 2, ../sass/_app.scss */
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* line 9, ../sass/_app.scss */
-#QuickPreviewOverlay {
-  top: 0px !important;
-}
-
-/* line 14, ../sass/_app.scss */
-.cf:before, .cf:after {
-  content: " ";
-  display: table;
-}
-
-/* line 18, ../sass/_app.scss */
-.cf:after {
-  clear: both;
-}
-
-/* line 21, ../sass/_app.scss */
-.cf {
-  *zoom: 1;
-}
-
-/* line 26, ../sass/_app.scss */
-body {
-  font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  color: #666;
-}
-/* line 32, ../sass/_app.scss */
-body .container {
-  width: 100%;
-  text-align: center;
-  padding: 0;
-}
-
-/* line 39, ../sass/_app.scss */
-h1, h2, h3, h4 {
-  font-family: "museo-slab","Rockwell","Times New Roman",serif;
-}
-
-/* line 1, ../sass/home/_slideshow.scss */
-ul.bjqs {
-  position: relative;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  display: none;
-}
-
-/* line 10, ../sass/home/_slideshow.scss */
-li.bjqs-slide {
-  position: absolute;
-  display: none;
-}
-
-/* line 15, ../sass/home/_slideshow.scss */
-ul.bjqs-controls {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  z-index: 9999;
-}
-/* line 21, ../sass/home/_slideshow.scss */
-ul.bjqs-controls.v-centered li a {
-  position: absolute;
-}
-/* line 24, ../sass/home/_slideshow.scss */
-ul.bjqs-controls.v-centered li.bjqs-next a {
-  right: 0;
-}
-/* line 27, ../sass/home/_slideshow.scss */
-ul.bjqs-controls.v-centered li.bjqs-prev a {
-  left: 0;
-}
-
-/* line 33, ../sass/home/_slideshow.scss */
-ol.bjqs-markers {
-  list-style: none;
-  padding: 0px 0px 5px 0px;
-  position: absolute;
-  bottom: 0px;
-  left: 8px;
-  margin: 0;
-  width: 100%;
-}
-/* line 41, ../sass/home/_slideshow.scss */
-ol.bjqs-markers.h-centered {
-  text-align: center;
-}
-/* line 44, ../sass/home/_slideshow.scss */
-ol.bjqs-markers li {
-  display: inline;
-}
-/* line 46, ../sass/home/_slideshow.scss */
-ol.bjqs-markers li a {
-  display: inline-block;
-}
-
-/* line 52, ../sass/home/_slideshow.scss */
-.bjqs-caption {
-  background-color: rgba(0, 0, 0, 0.05);
-  display: block;
-  width: 400px;
-  height: 100%;
-  margin: 0;
-  padding: 8px;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-}
-/* line 62, ../sass/home/_slideshow.scss */
-.bjqs-caption p {
-  font-size: 25px;
-  line-height: 30px;
-  padding: 8px;
-}
-
-/* line 70, ../sass/home/_slideshow.scss */
-ol.bjqs-markers li a {
-  border-radius: 8px;
-  padding: 8px;
-  background: #8adcf4;
-  color: #fff;
-  margin: 5px;
-  text-decoration: none;
-}
-/* line 78, ../sass/home/_slideshow.scss */
-ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
-  background: #5d96ff;
-}
-
-/* line 8, ../sass/main.scss */
-#QuickPreviewOverlay {
-  top: 0px !important;
-}
+Backtrace:
+/Users/dennisbest/Sites/identified/turtle-wax/sass/_header.scss:34
+/Users/dennisbest/Sites/identified/turtle-wax/sass/main.scss:3
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:1010:in `expected'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/script/lexer.rb:191:in `expected!'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/script/parser.rb:450:in `assert_expr'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/script/parser.rb:49:in `parse'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:900:in `sass_script'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:768:in `value!'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:745:in `declaration'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:509:in `block in declaration_or_ruleset'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:994:in `call'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:994:in `rethrow'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:519:in `declaration_or_ruleset'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:481:in `block_child'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:470:in `block_contents'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:462:in `block'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:456:in `ruleset'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:518:in `block in declaration_or_ruleset'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:994:in `call'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:994:in `rethrow'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:519:in `declaration_or_ruleset'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:481:in `block_child'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:473:in `block_contents'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:462:in `block'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:456:in `ruleset'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:480:in `block_child'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:473:in `block_contents'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:58:in `stylesheet'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/scss/parser.rb:27:in `parse'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/engine.rb:327:in `_to_tree'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/engine.rb:259:in `to_tree'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:144:in `visit_import'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/tree/root_node.rb:20:in `render'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/engine.rb:300:in `_render'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.19/lib/sass/engine.rb:247:in `render'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/compiler.rb:126:in `timed'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/compiler.rb:139:in `block in compile'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/logger.rb:45:in `red'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/compiler.rb:138:in `compile'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/compiler.rb:101:in `each'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/compiler.rb:101:in `block in run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/compiler.rb:126:in `timed'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/compiler.rb:100:in `run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `block in modified'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:30:in `block in temporary_multipath_handler'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:27:in `each'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:27:in `temporary_multipath_handler'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:17:in `block (2 levels) in run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:16:in `each'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:16:in `block in run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rb-fsevent-0.9.1/lib/rb-fsevent/fsevent.rb:43:in `call'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rb-fsevent-0.9.1/lib/rb-fsevent/fsevent.rb:43:in `run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:20:in `run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/commands/watch_project.rb:87:in `perform'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/commands/base.rb:18:in `execute'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/bin/compass:29:in `block in <top (required)>'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/bin/compass:43:in `call'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/bin/compass:43:in `<top (required)>'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/bin/compass:23:in `load'
+/Users/dennisbest/.rbenv/versions/1.9.3-p194/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...kground-color: \": expected expression (e.g. 1px, bold), was \"##b9ecff;\"\A         on line 34 of /Users/dennisbest/Sites/identified/turtle-wax/sass/_header.scss\A         from line 3 of /Users/dennisbest/Sites/identified/turtle-wax/sass/main.scss"; }
