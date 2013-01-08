@@ -1,7 +1,7 @@
-$('#tabs div') 
+jQuery_new('#tabs div') 
 .livequery('click', function(event) { 
-		this.targetClass = $(event.currentTarget).attr("class");
-		$("#tabs div, #panels div").removeClass("selected");
-		$("." + this.targetClass).addClass('selected');
+		this.targetClass = jQuery_new(event.currentTarget).attr("class");
+		jQuery_new("#tabs div, #panels div").removeClass("selected");
+		jQuery_new("." + this.targetClass).addClass('selected');
 		return false; 
 }); 
