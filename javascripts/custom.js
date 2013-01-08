@@ -33,3 +33,10 @@ loadContents('http://employer-cdn.identified.com/html/features/content.html', fu
 loadContents('http://employer-cdn.identified.com/html/home/content.html', function(results) {  
    $('#home-content').html(results); 
 });
+
+
+$("#tabs div").bind('click', function (e) {
+  this.targetClass = $(e.currentTarget).attr("class");
+  $("#tabs div, #panels div").removeClass("selected");
+  $("." + this.targetClass).addClass('selected');
+});
