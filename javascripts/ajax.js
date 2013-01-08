@@ -1,15 +1,10 @@
 function loadContents(url, callback) {  
 	if(url) {  
 		var yql = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from html where url="' + url + '"') + '&format=xml&callback=?';  
-
 		jQuery_new.getJSON(yql,function(data) {
-
-			//BUILD CALLBACK FUNCTION
 			if(typeof callback === 'function') {
 				callback(data.results[0]);  
 			}  
-
-		//WRITES ERROR TO LOG	
 		}).error(function(jqXHR, textStatus, errorThrown) { 
 			console.log(errorThrown); }
 		);
@@ -24,12 +19,4 @@ loadContents('http://employer-cdn.identified.com/html/footer.html', function(foo
 
 loadContents('http://employer-cdn.identified.com/html/header.html', function(header) {  
    jQuery_new('#header').html(header); 
-});
-
-loadContents('http://employer-cdn.identified.com/html/features/content.html', function(featurescontent) {  
-   jQuery_new('#features-content').html(featurescontent); 
-});
-
-loadContents('http://employer-cdn.identified.com/html/home/content.html', function(homecontent) {  
-   jQuery_new('#home-content').html(homecontent); 
 });
