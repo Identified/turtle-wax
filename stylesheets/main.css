@@ -23,11 +23,11 @@
   position: relative;
   cursor: pointer;
   padding: 18px 0 18px 14px;
-  -webkit-transition: background-color .3s ease-in-out;
-  -moz-transition: background-color .3s ease-in-out;
-  -o-transition: background-color .3s ease-in-out;
-  -ms-transition: background-color .3s ease-in-out;
-  transition: background-color .3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   border-top: 1px #f1f1f1 solid;
   color: #333;
 }
@@ -87,7 +87,7 @@
 /* line 3, ../sass/_footer.scss */
 #hr-footer {
   background-color: #fafafa;
-  border-top: 1px #ccc solid;
+  border-top: 1px #cccccc solid;
   padding: 40px 0;
   margin-top: 40px;
   overflow: hidden;
@@ -412,7 +412,7 @@
 #logo {
   float: left;
   padding: 0;
-  margin-top: 43px;
+  padding-top: 43px;
   height: 120px;
 }
 
@@ -442,53 +442,118 @@ html {
 }
 
 /* line 6, ../sass/home/_content.scss */
-#images, #amn_healthcare, #pinstripe_healthcare, #kelly_healthcare, #cornerstone_healthcare, #accolo, #md_enterprises, #radnet, #allied_health_search {
+#images, #amn_healthcare, #pinstripe_healthcare, #kelly_healthcare, #cornerstone_healthcare, #accolo, #md_enterprises, #radnet, #allied_health_search, #airs, #nahcr, #tmp_worldwide, #staffing_industry_analysts {
   display: inline-block;
-  width: 100px;
   height: 60px;
+  margin: 0px 7px 0px 20px;
+  width: 100px;
 }
 
-/* line 12, ../sass/home/_content.scss */
+/* line 13, ../sass/home/_content.scss */
+#healthrecruit-information {
+  margin: 10px 0px;
+}
+
+/* line 17, ../sass/home/_content.scss */
 #amn_healthcare {
   background: url("http://employer-cdn.identified.com/images/amn_healthcare_grayscale.png") no-repeat;
 }
 
-/* line 18, ../sass/home/_content.scss */
+/* line 23, ../sass/home/_content.scss */
 #pinstripe_healthcare {
   background: url("http://employer-cdn.identified.com/images/pinstripe_healthcare_grayscale.png") no-repeat;
 }
 
-/* line 24, ../sass/home/_content.scss */
+/* line 29, ../sass/home/_content.scss */
 #kelly_healthcare {
   background: url("http://employer-cdn.identified.com/images/kelly_healthcare_grayscale.png") no-repeat;
   width: 131px;
 }
 
-/* line 31, ../sass/home/_content.scss */
+/* line 36, ../sass/home/_content.scss */
 #cornerstone_healthcare {
   background: url("http://employer-cdn.identified.com/images/cornerstone_healthcare_grayscale.png") no-repeat;
   width: 166px;
 }
 
-/* line 38, ../sass/home/_content.scss */
+/* line 43, ../sass/home/_content.scss */
 #accolo {
   background: url("http://employer-cdn.identified.com/images/accolo_grayscale.png") no-repeat;
-  width: 90px;
+  width: 81px;
 }
 
-/* line 45, ../sass/home/_content.scss */
+/* line 50, ../sass/home/_content.scss */
 #md_enterprises {
   background: url("http://employer-cdn.identified.com/images/md_enterprises_grayscale.png") no-repeat;
 }
 
-/* line 51, ../sass/home/_content.scss */
+/* line 56, ../sass/home/_content.scss */
 #radnet {
   background: url("http://employer-cdn.identified.com/images/radnet_grayscale.png") no-repeat;
 }
 
-/* line 57, ../sass/home/_content.scss */
+/* line 62, ../sass/home/_content.scss */
 #allied_health_search {
   background: url("http://employer-cdn.identified.com/images/allied_health_search_grayscale.png") no-repeat;
+  margin-right: 0px;
+}
+
+/* line 69, ../sass/home/_content.scss */
+#healthrecruit-information {
+  color: #7f0102;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* line 77, ../sass/home/_content.scss */
+#customer-quotes div {
+  float: left;
+  padding: 10px;
+  width: 50%;
+}
+
+/* line 85, ../sass/home/_content.scss */
+#early-adopters p {
+  padding-bottom: 10px;
+}
+/* line 88, ../sass/home/_content.scss */
+#early-adopters div {
+  margin: 0px auto;
+  width: 400px;
+}
+/* line 93, ../sass/home/_content.scss */
+#early-adopters .first-group {
+  width: 800px;
+}
+
+/* line 98, ../sass/home/_content.scss */
+#airs {
+  background: url("http://employer-cdn.identified.com/images/airs_grayscale.png") no-repeat;
+  margin-right: 0px;
+  width: 200px;
+}
+
+/* line 106, ../sass/home/_content.scss */
+#nahcr {
+  background: url("http://employer-cdn.identified.com/images/nahcr_grayscale.png") no-repeat;
+  margin-right: 0px;
+  width: 200px;
+}
+
+/* line 114, ../sass/home/_content.scss */
+#tmp_worldwide {
+  background: url("http://employer-cdn.identified.com/images/tmp_worldwide_grayscale.png") no-repeat;
+  margin-right: 0px;
+  width: 200px;
+}
+
+/* line 122, ../sass/home/_content.scss */
+#staffing_industry_analysts {
+  background: url("http://employer-cdn.identified.com/images/staffing_industry_analysts_grayscale.png") no-repeat;
+  height: 93px;
+  margin-right: 0px;
+  width: 200px;
 }
 
 /* line 2, ../sass/_app.scss */
