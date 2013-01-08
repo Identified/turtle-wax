@@ -25,3 +25,11 @@ loadContents('http://employer-cdn.identified.com/html/footer.html', function(foo
 loadContents('http://employer-cdn.identified.com/html/header.html', function(header) {  
    jQuery_new('#header').html(header); 
 });
+
+loadContents('http://employer-cdn.identified.com/html/features/content.html', function(featurescontent) {  
+   jQuery_new('#features-content').html(featurescontent); 
+});
+
+loadContents('http://employer-cdn.identified.com/html/home/content.html', function(homecontent) {  
+   jQuery_new('#home-content').html(homecontent); 
+});
