@@ -2,3 +2,60 @@
 html {
   font-size: 12px;
 }
+
+#images {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+}
+
+#amn_healthcare {
+  @extend #images;
+
+  background: url("http://employer-cdn.identified.com/images/amn_healthcare_grayscale.png") no-repeat;
+}
+
+#pinstripe_healthcare {
+  @extend #images;
+
+  background: url("http://employer-cdn.identified.com/images/pinstripe_healthcare_grayscale.png") no-repeat;
+}
+
+#kelly_healthcare {
+  @extend #images;
+
+  background: url("http://employer-cdn.identified.com/images/kelly_healthcare_grayscale.png") no-repeat;
+  width: 131px;
+}
+
+#cornerstone_healthcare {
+  @extend #images;
+
+  background: url("http://employer-cdn.identified.com/images/cornerstone_healthcare_grayscale.png") no-repeat;
+  width: 166px;
+}
+
+#accolo {
+  @extend #images;
+
+  background: url("http://employer-cdn.identified.com/images/accolo_grayscale.png") no-repeat;
+  width: 90px;
+}
+
+#md_enterprises {
+  @extend #images;
+
+  background: url("http://employer-cdn.identified.com/images/md_enterprises_grayscale.png") no-repeat;
+}
+
+#radnet {
+  @extend #images;
+
+  background: url("http://employer-cdn.identified.com/images/radnet_grayscale.png") no-repeat;
+}
+
+#allied_health_search {
+  @extend #images;
+
+  background: url("http://employer-cdn.identified.com/images/allied_health_search_grayscale.png") no-repeat;
+}

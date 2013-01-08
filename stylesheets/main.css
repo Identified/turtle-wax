@@ -17,11 +17,11 @@
   cursor: pointer;
   padding: 14px 0 14px 14px;
   color: #F83D19;
-  -webkit-transition: background-color .3s ease-in-out;
-  -moz-transition: background-color .3s ease-in-out;
-  -o-transition: background-color .3s ease-in-out;
-  -ms-transition: background-color .3s ease-in-out;
-  transition: background-color .3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   border-top: 1px #cecece solid;
 }
 /* line 25, ../sass/features/_content.scss */
@@ -121,6 +121,56 @@
 /* line 2, ../sass/home/_content.scss */
 html {
   font-size: 12px;
+}
+
+/* line 6, ../sass/home/_content.scss */
+#images, #amn_healthcare, #pinstripe_healthcare, #kelly_healthcare, #cornerstone_healthcare, #accolo, #md_enterprises, #radnet, #allied_health_search {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+}
+
+/* line 12, ../sass/home/_content.scss */
+#amn_healthcare {
+  background: url("http://employer-cdn.identified.com/images/amn_healthcare_grayscale.png") no-repeat;
+}
+
+/* line 18, ../sass/home/_content.scss */
+#pinstripe_healthcare {
+  background: url("http://employer-cdn.identified.com/images/pinstripe_healthcare_grayscale.png") no-repeat;
+}
+
+/* line 24, ../sass/home/_content.scss */
+#kelly_healthcare {
+  background: url("http://employer-cdn.identified.com/images/kelly_healthcare_grayscale.png") no-repeat;
+  width: 131px;
+}
+
+/* line 31, ../sass/home/_content.scss */
+#cornerstone_healthcare {
+  background: url("http://employer-cdn.identified.com/images/cornerstone_healthcare_grayscale.png") no-repeat;
+  width: 166px;
+}
+
+/* line 38, ../sass/home/_content.scss */
+#accolo {
+  background: url("http://employer-cdn.identified.com/images/accolo_grayscale.png") no-repeat;
+  width: 90px;
+}
+
+/* line 45, ../sass/home/_content.scss */
+#md_enterprises {
+  background: url("http://employer-cdn.identified.com/images/md_enterprises_grayscale.png") no-repeat;
+}
+
+/* line 51, ../sass/home/_content.scss */
+#radnet {
+  background: url("http://employer-cdn.identified.com/images/radnet_grayscale.png") no-repeat;
+}
+
+/* line 57, ../sass/home/_content.scss */
+#allied_health_search {
+  background: url("http://employer-cdn.identified.com/images/allied_health_search_grayscale.png") no-repeat;
 }
 
 /* line 2, ../sass/_app.scss */
