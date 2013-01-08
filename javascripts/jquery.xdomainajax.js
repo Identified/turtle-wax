@@ -10,7 +10,7 @@
  * @info http://james.padolsey.com/javascript/cross-domain-requests-with-jquery/
  */
 
-jQuery.ajax = (function(_ajax){
+jQuery_144.ajax = (function(_ajax){
     
     var protocol = location.protocol,
         hostname = location.hostname,
@@ -72,4 +72,4 @@ jQuery.ajax = (function(_ajax){
         
     };
     
-})(jQuery.ajax);
+})(jQuery_144.ajax);
