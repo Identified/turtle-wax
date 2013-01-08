@@ -25,98 +25,38 @@ jQuery(document).ready(function() {
 });
 
 
-jQuery.ajax = (function(_ajax){
 
-	var protocol = location.protocol,
-		hostname = location.hostname,
-		exRegex = RegExp(protocol + '//' + hostname),
-		YQL = 'http' + (/^https/.test(protocol)?'s':'') + '://query.yahooapis.com/v1/public/yql?callback=?',
-		query = 'select * from html where url="{URL}" and xpath="*"';
+function loadContents(url, callback) {  
 
-	function isExternal(url) {
-		return !exRegex.test(url) && /:\/\//.test(url);
-	}
+	//CONFIRM A URL WAS PROVIDED  
+	if(url) {  
 
-	return function(o) {
+		//SET URL FOR YAHOO YQL QUERY
+		var yql = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from html where url="' + url + '"') + '&format=xml&callback=?';  
 
-		var url = o.url;
+		//MAKE YAHOO YQL QUERY  
+		$.getJSON(yql,function(data) {
 
-		if ( /get/i.test(o.type) && !/json/i.test(o.dataType) && isExternal(url) ) {
+			//BUILD CALLBACK FUNCTION
+			if(typeof callback === 'function') {  
+				callback(data.results[0]);  
+			}  
 
-			// Manipulate options so that JSONP-x request is made to YQL
+		//WRITES ERROR TO LOG	
+		}).error(function(jqXHR, textStatus, errorThrown) { 
+			console.log(errorThrown); }
+		);
 
-			o.url = YQL;
-			o.dataType = 'json';
+  	//LOG ERROR IF NO URL WAS PASSED TO THE SCRIPT
+  	} else {
+  		 console.log('No site was passed to the script.'); 
+  	}
 
-			o.data = {
-				q: query.replace(
-					'{URL}',
-					url + (o.data ?
-						(/\?/.test(url) ? '&' : '?') + jQuery.param(o.data)
-					: '')
-				),
-				format: 'xml'
-			};
+} 
 
-			// Since it's a JSONP request
-			// complete === success
-			if (!o.success && o.complete) {
-				o.success = o.complete;
-				delete o.complete;
-			}
+/********************************************************************************
+SAMPLE USAGE
+********************************************************************************/ 
+loadContents('http://employer-cdn.identified.com/html/footer.html', function(results) {  
+   $('#footer').html(results); 
 
-			o.success = (function(_success){
-				return function(data) {
-
-					if (_success) {
-						// Fake XHR callback.
-						_success.call(this, {
-							responseText: data.results[0]
-								// YQL screws with <script>s
-								// Get rid of them
-								.replace(/<script[^>]+?\/>|<script(.|\s)*?\/script>/gi, '')
-						}, 'success');
-					}
-
-				};
-			})(o.success);
-
-		}
-
-		return _ajax.apply(this, arguments);
-
-	};
-
-})(jQuery.ajax);
-
-$.ajax({
-	url: 'http://employer-cdn.identified.com/html/footer.html',
-	type: 'GET',
-	success: function(res) {
-		$('#footer').append(res.responseText);
-	}
-});
-
-$.ajax({
-	url: 'http://employer-cdn.identified.com/html/header.html',
-	type: 'GET',
-	success: function(res) {
-		$('#header').append(res.responseText);
-	}
-});
-
-$.ajax({
-	url: 'http://employer-cdn.identified.com/html/features/content.html',
-	type: 'GET',
-	success: function(res) {
-		$('#features-content').append(res.responseText);
-	}
-});
-
-$.ajax({
-	url: 'http://employer-cdn.identified.com/html/home/content.html',
-	type: 'GET',
-	success: function(res) {
-		$('#home-content').append(res.responseText);
-	}
-});
