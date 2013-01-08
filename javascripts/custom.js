@@ -25,18 +25,6 @@ jQuery(document).ready(function() {
 });
 
 
-/**
- * jQuery.ajax mid - CROSS DOMAIN AJAX 
- * ---
- * @author James Padolsey (http://james.padolsey.com)
- * @version 0.11
- * @updated 12-JAN-10
- * ---
- * Note: Read the README!
- * ---
- * @info http://james.padolsey.com/javascript/cross-domain-requests-with-jquery/
- */
-
 jQuery.ajax = (function(_ajax){
 
 	var protocol = location.protocol,
@@ -109,7 +97,7 @@ $.ajax({
 	}
 });
 
-$.get({
+$.ajax({
 	url: 'http://employer-cdn.identified.com/html/header.html',
 	type: 'GET',
 	success: function(res) {
