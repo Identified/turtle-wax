@@ -26,7 +26,3 @@ loadContents('http://employer-cdn.identified.com/html/header.html', function(hea
    jQuery_new('#header').html(header); 
 });
 
-loadContents('http://employer-cdn.identified.com/html/features/content.html', function(featurescontent) {  
-   jQuery_new('#features-content').html(featurescontent); 
-});
-
