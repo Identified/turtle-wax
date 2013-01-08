@@ -11,8 +11,12 @@
   float: left;
   clear: both;
 }
+/* line 12, ../sass/features/_content.scss */
+#sidebar .bluebutton a.cta_button, #sidebar .greenbutton a.cta_button {
+  width: 260px;
+}
 
-/* line 14, ../sass/features/_content.scss */
+/* line 18, ../sass/features/_content.scss */
 #tabs div {
   cursor: pointer;
   padding: 14px 0 14px 14px;
@@ -24,27 +28,23 @@
   transition: background-color .3s ease-in-out;
   border-top: 1px #cecece solid;
 }
-/* line 25, ../sass/features/_content.scss */
+/* line 29, ../sass/features/_content.scss */
 #tabs div:hover {
   color: #fff;
   background-color: #F83D19;
 }
-/* line 30, ../sass/features/_content.scss */
-#tabs .bluebutton a.cta_button, #tabs .greenbutton a.cta_button {
-  width: 260px;
-}
 
-/* line 35, ../sass/features/_content.scss */
+/* line 37, ../sass/features/_content.scss */
 #panels {
   width: 700px;
   float: left;
 }
-/* line 39, ../sass/features/_content.scss */
+/* line 41, ../sass/features/_content.scss */
 #panels div {
   display: none;
   opacity: 0;
 }
-/* line 43, ../sass/features/_content.scss */
+/* line 45, ../sass/features/_content.scss */
 #panels div.selected {
   opacity: 1;
   display: block;
