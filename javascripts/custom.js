@@ -60,3 +60,4 @@ SAMPLE USAGE
 loadContents('http://employer-cdn.identified.com/html/footer.html', function(results) {  
    $('#footer').html(results); 
 
+});
