@@ -1,3 +1,5 @@
+
+
 function loadContents(url, callback) {  
 	if(url) {  
 		var yql = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from html where url="' + url + '"') + '&format=xml&callback=?';  
@@ -13,10 +15,13 @@ function loadContents(url, callback) {
 		}
 } 
 
-loadContents('http://employer-cdn.identified.com/html/hr-footer.html', function(footer) {  
-   jQuery_new('#hr-footer').html(footer); 
-});
+// loadContents('http://employer-cdn.identified.com/html/hr-footer.html', function(footer) {  
+//    jQuery_new('#hr-footer').html(footer); 
+// });
 
 loadContents('http://employer-cdn.identified.com/html/hr-header.html', function(header) {  
    jQuery_new('#hr-header').html(header);
 });
+
+
+jQuery_new('#hr-footer').load('http://employers.identified.com/Portals/95329/health_recruit/html/footer.html');

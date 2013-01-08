@@ -12,6 +12,12 @@
 	a.icon {
 		line-height: 32px;
 		color: #61686b;
+		display: block;
+		float: left;
+		clear: both;
+		img {
+			height: 24px;
+		}
 	}
 }
 

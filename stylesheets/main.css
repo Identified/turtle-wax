@@ -66,6 +66,13 @@
 #hr-footer a.icon {
   line-height: 32px;
   color: #61686b;
+  display: block;
+  float: left;
+  clear: both;
+}
+/* line 18, ../sass/_footer.scss */
+#hr-footer a.icon img {
+  height: 24px;
 }
 
 /* line 1, ../sass/_header.scss */
