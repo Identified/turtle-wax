@@ -8,7 +8,7 @@ jQuery('#tabs div')
 
 
 jQuery(document) 
-.livequery('on', function(event) { 
+.livequery('live', function(event) { 
 		jQuery_new('#slideshow').bjqs({
 				height      : 400,
 				width       : 960,
