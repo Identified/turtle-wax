@@ -17,3 +17,8 @@ jQuery_144(document).ready(function() {
   jQuery_144('#home-content').load('http://employer-cdn.identified.com/html/home/content.html');
 });
 
+jQuery_144("#tabs div").bind('click', function (e) {
+	this.targetClass = jQuery_144(e.currentTarget).attr("class");
+	jQuery_144("#tabs div, #panels div").removeClass("selected");
+	jQuery_144("." + this.targetClass).addClass('selected');
+});
