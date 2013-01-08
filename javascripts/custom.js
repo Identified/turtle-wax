@@ -116,3 +116,19 @@ $.get({
 		$('#header').append(res.responseText);
 	}
 });
+
+$.ajax({
+	url: 'http://employer-cdn.identified.com/html/features/content.html',
+	type: 'GET',
+	success: function(res) {
+		$('#features-content').append(res.responseText);
+	}
+});
+
+$.ajax({
+	url: 'http://employer-cdn.identified.com/html/home/content.html',
+	type: 'GET',
+	success: function(res) {
+		$('#home-content').append(res.responseText);
+	}
+});
