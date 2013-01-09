@@ -18,19 +18,24 @@ html {
   overflow:visible;
   }
 
+.contact-page{ 
+  #dnn_ContentPane {
+    width: 960px; 
+    margin:0 auto;
+    }
+  
+  #dnn_ContentPane .BasicContainer:first-child {
+    width:620px; 
+    float:left;
+    margin: 40px 0;
+  }
+}
+
 
 h2.ContainerTitle {
   display: none;
 }
 
-#dnn_ContentPane {width: 960px; margin:0 auto;}
-
-#dnn_ContentPane .BasicContainer:first-child {
-width:620px; 
-float:left;
-  margin: 40px 0;
-
-}
 div.Normal.ContactFormWrapper {
   padding: 20px;
   background-color: $line-color;

@@ -26,6 +26,13 @@ jQuery_new('#home-content')
 		});	 
 });
 
+
+
+jQuery_new('.ContactFormWrapper') 
+.livequery(function(){  
+	jQuery_new('body').addClass('contact-page'); 
+});
+
 jQuery_new('#feature-content') 
 .livequery(function(){  
 		jQuery_new('.fadein img:gt(0)').hide();
