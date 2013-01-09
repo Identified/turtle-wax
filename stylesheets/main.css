@@ -537,6 +537,12 @@
 }
 
 /* line 5, ../sass/home/_content.scss */
+h3 {
+  padding-top: 14px;
+  border-top: 1px #f1f1f1 dashed;
+}
+
+/* line 9, ../sass/home/_content.scss */
 #images, #amn_healthcare, #pinstripe_healthcare, #kelly_healthcare, #cornerstone_healthcare, #accolo, #md_enterprises, #radnet, #allied_health_search, #airs, #nahcr, #tmp_worldwide, #staffing_industry_analysts {
   display: inline-block;
   height: 60px;
@@ -544,56 +550,56 @@
   width: 100px;
 }
 
-/* line 12, ../sass/home/_content.scss */
+/* line 16, ../sass/home/_content.scss */
 #healthrecruit-information {
   margin: 10px 0px;
 }
 
-/* line 16, ../sass/home/_content.scss */
+/* line 20, ../sass/home/_content.scss */
 #amn_healthcare {
   background: url("http://employer-cdn.identified.com/images/amn_healthcare_grayscale.png") no-repeat;
 }
 
-/* line 22, ../sass/home/_content.scss */
+/* line 26, ../sass/home/_content.scss */
 #pinstripe_healthcare {
   background: url("http://employer-cdn.identified.com/images/pinstripe_healthcare_grayscale.png") no-repeat;
 }
 
-/* line 28, ../sass/home/_content.scss */
+/* line 32, ../sass/home/_content.scss */
 #kelly_healthcare {
   background: url("http://employer-cdn.identified.com/images/kelly_healthcare_grayscale.png") no-repeat;
   width: 131px;
 }
 
-/* line 35, ../sass/home/_content.scss */
+/* line 39, ../sass/home/_content.scss */
 #cornerstone_healthcare {
   background: url("http://employer-cdn.identified.com/images/cornerstone_healthcare_grayscale.png") no-repeat;
   width: 166px;
 }
 
-/* line 42, ../sass/home/_content.scss */
+/* line 46, ../sass/home/_content.scss */
 #accolo {
   background: url("http://employer-cdn.identified.com/images/accolo_grayscale.png") no-repeat;
   width: 81px;
 }
 
-/* line 49, ../sass/home/_content.scss */
+/* line 53, ../sass/home/_content.scss */
 #md_enterprises {
   background: url("http://employer-cdn.identified.com/images/md_enterprises_grayscale.png") no-repeat;
 }
 
-/* line 55, ../sass/home/_content.scss */
+/* line 59, ../sass/home/_content.scss */
 #radnet {
   background: url("http://employer-cdn.identified.com/images/radnet_grayscale.png") no-repeat;
 }
 
-/* line 61, ../sass/home/_content.scss */
+/* line 65, ../sass/home/_content.scss */
 #allied_health_search {
   background: url("http://employer-cdn.identified.com/images/allied_health_search_grayscale.png") no-repeat;
   margin-right: 0px;
 }
 
-/* line 68, ../sass/home/_content.scss */
+/* line 72, ../sass/home/_content.scss */
 #healthrecruit-information {
   color: #7f0102;
   font-size: 18px;
@@ -601,49 +607,49 @@
   text-align: center;
 }
 
-/* line 76, ../sass/home/_content.scss */
+/* line 80, ../sass/home/_content.scss */
 #customer-quotes div {
   float: left;
   padding: 10px;
   width: 50%;
 }
 
-/* line 84, ../sass/home/_content.scss */
+/* line 88, ../sass/home/_content.scss */
 #early-adopters p {
   padding-bottom: 10px;
 }
-/* line 87, ../sass/home/_content.scss */
+/* line 91, ../sass/home/_content.scss */
 #early-adopters div {
   margin: 0px auto;
   width: 400px;
 }
-/* line 92, ../sass/home/_content.scss */
+/* line 96, ../sass/home/_content.scss */
 #early-adopters .first-group {
   width: 800px;
 }
 
-/* line 97, ../sass/home/_content.scss */
+/* line 101, ../sass/home/_content.scss */
 #airs {
   background: url("http://employer-cdn.identified.com/images/airs_grayscale.png") no-repeat;
   margin-right: 0px;
   width: 200px;
 }
 
-/* line 105, ../sass/home/_content.scss */
+/* line 109, ../sass/home/_content.scss */
 #nahcr {
   background: url("http://employer-cdn.identified.com/images/nahcr_grayscale.png") no-repeat;
   margin-right: 0px;
   width: 200px;
 }
 
-/* line 113, ../sass/home/_content.scss */
+/* line 117, ../sass/home/_content.scss */
 #tmp_worldwide {
   background: url("http://employer-cdn.identified.com/images/tmp_worldwide_grayscale.png") no-repeat;
   margin-right: 0px;
   width: 200px;
 }
 
-/* line 121, ../sass/home/_content.scss */
+/* line 125, ../sass/home/_content.scss */
 #staffing_industry_analysts {
   background: url("http://employer-cdn.identified.com/images/staffing_industry_analysts_grayscale.png") no-repeat;
   height: 93px;
