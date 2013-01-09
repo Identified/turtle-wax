@@ -28,7 +28,7 @@ jQuery_new('#home-content')
 
 jQuery_new('#feature-content') 
 .livequery(function(){  
-		$("#hr-slides > div:gt(0)").hide();
+		jQuery_new("#hr-slides > div:gt(0)").hide();
 		setInterval(function() { 
 			$('#hr-slides > div:first')
 				.fadeOut(1000)
