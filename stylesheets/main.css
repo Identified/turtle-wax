@@ -531,12 +531,12 @@
   bottom: 0;
 }
 
-/* line 2, ../sass/home/_content.scss */
-html {
-  font-size: 12px;
+/* line 1, ../sass/home/_content.scss */
+#home-content {
+  margin-top: 20px;
 }
 
-/* line 6, ../sass/home/_content.scss */
+/* line 5, ../sass/home/_content.scss */
 #images, #amn_healthcare, #pinstripe_healthcare, #kelly_healthcare, #cornerstone_healthcare, #accolo, #md_enterprises, #radnet, #allied_health_search, #airs, #nahcr, #tmp_worldwide, #staffing_industry_analysts {
   display: inline-block;
   height: 60px;
@@ -544,56 +544,56 @@ html {
   width: 100px;
 }
 
-/* line 13, ../sass/home/_content.scss */
+/* line 12, ../sass/home/_content.scss */
 #healthrecruit-information {
   margin: 10px 0px;
 }
 
-/* line 17, ../sass/home/_content.scss */
+/* line 16, ../sass/home/_content.scss */
 #amn_healthcare {
   background: url("http://employer-cdn.identified.com/images/amn_healthcare_grayscale.png") no-repeat;
 }
 
-/* line 23, ../sass/home/_content.scss */
+/* line 22, ../sass/home/_content.scss */
 #pinstripe_healthcare {
   background: url("http://employer-cdn.identified.com/images/pinstripe_healthcare_grayscale.png") no-repeat;
 }
 
-/* line 29, ../sass/home/_content.scss */
+/* line 28, ../sass/home/_content.scss */
 #kelly_healthcare {
   background: url("http://employer-cdn.identified.com/images/kelly_healthcare_grayscale.png") no-repeat;
   width: 131px;
 }
 
-/* line 36, ../sass/home/_content.scss */
+/* line 35, ../sass/home/_content.scss */
 #cornerstone_healthcare {
   background: url("http://employer-cdn.identified.com/images/cornerstone_healthcare_grayscale.png") no-repeat;
   width: 166px;
 }
 
-/* line 43, ../sass/home/_content.scss */
+/* line 42, ../sass/home/_content.scss */
 #accolo {
   background: url("http://employer-cdn.identified.com/images/accolo_grayscale.png") no-repeat;
   width: 81px;
 }
 
-/* line 50, ../sass/home/_content.scss */
+/* line 49, ../sass/home/_content.scss */
 #md_enterprises {
   background: url("http://employer-cdn.identified.com/images/md_enterprises_grayscale.png") no-repeat;
 }
 
-/* line 56, ../sass/home/_content.scss */
+/* line 55, ../sass/home/_content.scss */
 #radnet {
   background: url("http://employer-cdn.identified.com/images/radnet_grayscale.png") no-repeat;
 }
 
-/* line 62, ../sass/home/_content.scss */
+/* line 61, ../sass/home/_content.scss */
 #allied_health_search {
   background: url("http://employer-cdn.identified.com/images/allied_health_search_grayscale.png") no-repeat;
   margin-right: 0px;
 }
 
-/* line 69, ../sass/home/_content.scss */
+/* line 68, ../sass/home/_content.scss */
 #healthrecruit-information {
   color: #7f0102;
   font-size: 18px;
@@ -601,49 +601,49 @@ html {
   text-align: center;
 }
 
-/* line 77, ../sass/home/_content.scss */
+/* line 76, ../sass/home/_content.scss */
 #customer-quotes div {
   float: left;
   padding: 10px;
   width: 50%;
 }
 
-/* line 85, ../sass/home/_content.scss */
+/* line 84, ../sass/home/_content.scss */
 #early-adopters p {
   padding-bottom: 10px;
 }
-/* line 88, ../sass/home/_content.scss */
+/* line 87, ../sass/home/_content.scss */
 #early-adopters div {
   margin: 0px auto;
   width: 400px;
 }
-/* line 93, ../sass/home/_content.scss */
+/* line 92, ../sass/home/_content.scss */
 #early-adopters .first-group {
   width: 800px;
 }
 
-/* line 98, ../sass/home/_content.scss */
+/* line 97, ../sass/home/_content.scss */
 #airs {
   background: url("http://employer-cdn.identified.com/images/airs_grayscale.png") no-repeat;
   margin-right: 0px;
   width: 200px;
 }
 
-/* line 106, ../sass/home/_content.scss */
+/* line 105, ../sass/home/_content.scss */
 #nahcr {
   background: url("http://employer-cdn.identified.com/images/nahcr_grayscale.png") no-repeat;
   margin-right: 0px;
   width: 200px;
 }
 
-/* line 114, ../sass/home/_content.scss */
+/* line 113, ../sass/home/_content.scss */
 #tmp_worldwide {
   background: url("http://employer-cdn.identified.com/images/tmp_worldwide_grayscale.png") no-repeat;
   margin-right: 0px;
   width: 200px;
 }
 
-/* line 122, ../sass/home/_content.scss */
+/* line 121, ../sass/home/_content.scss */
 #staffing_industry_analysts {
   background: url("http://employer-cdn.identified.com/images/staffing_industry_analysts_grayscale.png") no-repeat;
   height: 93px;

@@ -22,7 +22,7 @@ jQuery_new('#home-content')
 				nexttext : 'Next', // Text for 'next' button (can use HTML)
 				prevtext : 'Prev', // Text for 'previous' button (can use HTML)
 				showmarkers : true, // Show individual slide markers
-				centermarkers : false // Center markers horizontally
+				centermarkers : true // Center markers horizontally
 		});	 
 });
 
