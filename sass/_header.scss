@@ -31,7 +31,20 @@
   line-height        : 120px;
   padding            : 0 20px;
   color              : #616868;
-  
+  .nub {
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 10px 10px 10px 0px;
+    border-right-color: red;
+    position: absolute;
+    z-index: 5;
+    right: -1px;
+    top: 50%;
+    margin-top: -10px;
+  }
 
   &:hover {
     background-color : #F1F1F1;
