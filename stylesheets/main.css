@@ -697,45 +697,46 @@ h2.ContainerTitle {
   width: 960px;
   margin: 0 auto;
 }
-/* line 22, ../sass/_app.scss */
-.ISContent .ContactFormWrapper {
+
+/* line 24, ../sass/_app.scss */
+.ContactFormWrapper {
   padding: 20px;
   background-color: #f1f1f1;
   float: right;
   width: 300px;
 }
 
-/* line 33, ../sass/_app.scss */
+/* line 34, ../sass/_app.scss */
 .cf:before, .cf:after {
   content: " ";
   display: table;
 }
 
-/* line 37, ../sass/_app.scss */
+/* line 38, ../sass/_app.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 40, ../sass/_app.scss */
+/* line 41, ../sass/_app.scss */
 .cf {
   *zoom: 1;
 }
 
-/* line 46, ../sass/_app.scss */
+/* line 47, ../sass/_app.scss */
 body {
   font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #666;
 }
-/* line 51, ../sass/_app.scss */
+/* line 52, ../sass/_app.scss */
 body .container {
   width: 100%;
   text-align: center;
   padding: 0;
 }
 
-/* line 58, ../sass/_app.scss */
+/* line 59, ../sass/_app.scss */
 h1, h2, h3, h4 {
   margin: 16px 0 12px 0;
   font-size: 18px;
@@ -744,34 +745,34 @@ h1, h2, h3, h4 {
   text-shadow: white 0 1px 0;
 }
 
-/* line 66, ../sass/_app.scss */
+/* line 67, ../sass/_app.scss */
 h2 {
   margin: 0 0 20px 0;
   font-size: 22px;
 }
 
-/* line 70, ../sass/_app.scss */
+/* line 71, ../sass/_app.scss */
 h4 {
   font-size: 16px;
 }
 
-/* line 74, ../sass/_app.scss */
+/* line 75, ../sass/_app.scss */
 .full {
   display: block;
   width: 100%;
 }
 
-/* line 79, ../sass/_app.scss */
+/* line 80, ../sass/_app.scss */
 a, a:link, a:visited {
   color: #5d96ff;
 }
 
-/* line 83, ../sass/_app.scss */
+/* line 84, ../sass/_app.scss */
 p {
   margin: 18px 0;
 }
 
-/* line 88, ../sass/_app.scss */
+/* line 89, ../sass/_app.scss */
 .lazy {
   display: none;
 }
