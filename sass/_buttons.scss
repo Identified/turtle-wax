@@ -1,4 +1,4 @@
-.bluebutton a {
+.bluebutton a.cta_button {
 	padding: 13px 20px;
 	display: block/9;
 	display: inline-block;
@@ -26,7 +26,7 @@
 	opacity: 1.000;
 }
 
-.bluebutton a:active, .bluebutton a:hover{
+.bluebutton a.cta_button:active, .bluebutton a.cta_button:hover{
 	background-color: transparent;
 	background-origin: border-box;
 	background-image:  -webkit-gradient(linear,  50%   0%,  50% 100%,  color-stop(0.000, hsla(213.7, 73.3%, 39.4%, 1.00)) , color-stop(1.000, hsla(218.3, 69.3%, 52.7%, 1.00)) ); /* Saf4+, Chrome */

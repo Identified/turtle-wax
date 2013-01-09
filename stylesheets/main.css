@@ -180,7 +180,7 @@
 }
 
 /* line 1, ../sass/_buttons.scss */
-.bluebutton a {
+.bluebutton a.cta_button {
   padding: 13px 20px;
   display: block/9;
   display: inline-block;
@@ -219,7 +219,7 @@
 }
 
 /* line 29, ../sass/_buttons.scss */
-.bluebutton a:active, .bluebutton a:hover {
+.bluebutton a.cta_button:active, .bluebutton a.cta_button:hover {
   background-color: transparent;
   background-origin: border-box;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0, #1b5bae), color-stop(1, #336fda));
