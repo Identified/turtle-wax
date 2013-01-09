@@ -34,11 +34,15 @@
 		a {
 			display: block;
 			clear: both;
-			color: #61686b;
+			color: $text-color-alt;
 			border-bottom: 1px solid #f5f5f5;
 			border-top: 1px solid #fff;
 			padding: 7px;
+			&:hover {
+				color:$link-color;
+			}
 		}
+		
 		a:last-child {
 			border-bottom: none;
 
