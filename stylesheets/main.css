@@ -484,12 +484,14 @@
 #menu a:hover {
   background-color: rgba(213, 213, 213, 0.2);
   color: #616868;
+  text-shadow: white 0 1px 0;
 }
-/* line 45, ../sass/_header.scss */
+/* line 46, ../sass/_header.scss */
 #menu a.selected {
   background-color: rgba(213, 213, 213, 0.36);
+  text-shadow: white 0 1px 0;
 }
-/* line 47, ../sass/_header.scss */
+/* line 50, ../sass/_header.scss */
 #menu a.selected .nub {
   font-size: 0;
   height: 0;
@@ -677,6 +679,7 @@ h1, h2, h3, h4 {
   font-size: 18px;
   line-height: 130%;
   font-weight: normal;
+  text-shadow: white 0 1px 0;
 }
 
 /* line 55, ../sass/_app.scss */

@@ -41,9 +41,12 @@
   &:hover {
     background-color: rgba(213, 213, 213, 0.2);
     color            : #616868;
+    text-shadow: white 0 1px 0;
   }
   &.selected {
     background-color: rgba(213, 213, 213, 0.36);
+    text-shadow: white 0 1px 0;
+
     .nub {
       font-size           : 0;
       height              : 0;
