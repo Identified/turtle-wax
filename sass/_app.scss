@@ -21,14 +21,17 @@ h2.ContainerTitle {
 #dnn_ContentPane {width: 960px; margin:0 auto;}
 
 #dnn_ContentPane .BasicContainer:first-child {
-width:500px; float:left;
+width:620px; 
+float:left;
+  margin: 40px 0;
+
 }
 div.Normal.ContactFormWrapper {
   padding: 20px;
   background-color: $line-color;
-  float: left;
+  float: right;
   width: 300px;
-  margin: 40px 0 40px 30px;
+  margin: 40px 0;
   input[type="text"]{
     line-height: 24px;
   }
