@@ -36,9 +36,10 @@ jQuery_new('#feature-content')
 			3000);
 });
 
-jQuery_new("img.lazy").lazyload();
 
-
+jQuery_new("img.lazy").lazyload({ 
+		skip_invisible : false
+});
 
 
 jQuery_new('#menu') 
