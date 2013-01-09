@@ -32,6 +32,11 @@
   padding            : 0 20px;
   color              : #616868;
   position           : relative;
+  -webkit-transition   : background-color .3s ease-in-out;
+  -moz-transition      : background-color .3s ease-in-out;
+  -o-transition        : background-color .3s ease-in-out;
+  -ms-transition       : background-color .3s ease-in-out;
+  transition           : background-color .3s ease-in-out;
   
   &:hover {
     background-color: rgba(213, 213, 213, 0.2);

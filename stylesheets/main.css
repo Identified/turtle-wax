@@ -430,17 +430,22 @@
   padding: 0 20px;
   color: #616868;
   position: relative;
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
-/* line 36, ../sass/_header.scss */
+/* line 41, ../sass/_header.scss */
 #menu a:hover {
   background-color: rgba(213, 213, 213, 0.2);
   color: #616868;
 }
-/* line 40, ../sass/_header.scss */
+/* line 45, ../sass/_header.scss */
 #menu a.selected {
   background-color: rgba(213, 213, 213, 0.36);
 }
-/* line 42, ../sass/_header.scss */
+/* line 47, ../sass/_header.scss */
 #menu a.selected .nub {
   font-size: 0;
   height: 0;
