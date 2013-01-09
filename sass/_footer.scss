@@ -7,6 +7,10 @@
 	margin-top: 40px;
 	overflow: hidden;
 	
+	.BasicContainer & {
+		clear: both;
+	}
+	
 	.container {
 		width: $container-width;
 		text-align: left;
