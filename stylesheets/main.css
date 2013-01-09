@@ -23,11 +23,11 @@
   position: relative;
   cursor: pointer;
   padding: 18px 0 18px 14px;
-  -webkit-transition: background-color .3s ease-in-out;
-  -moz-transition: background-color .3s ease-in-out;
-  -o-transition: background-color .3s ease-in-out;
-  -ms-transition: background-color .3s ease-in-out;
-  transition: background-color .3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   border-top: 1px #f1f1f1 solid;
   color: #333;
 }
@@ -108,7 +108,7 @@
 /* line 3, ../sass/_footer.scss */
 #hr-footer {
   background-color: #f1f1f1;
-  border-top: 1px #ccc solid;
+  border-top: 1px #cccccc solid;
   padding: 40px 0;
   margin-top: 40px;
   overflow: hidden;
@@ -466,7 +466,7 @@
 
 /* line 1, ../sass/_header.scss */
 #hr-header {
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid #f1f1f1;
   height: 120px;
   width: 100%;
 }
@@ -504,11 +504,11 @@
   padding: 0 20px;
   color: #616868;
   position: relative;
-  -webkit-transition: background-color .3s ease-in-out;
-  -moz-transition: background-color .3s ease-in-out;
-  -o-transition: background-color .3s ease-in-out;
-  -ms-transition: background-color .3s ease-in-out;
-  transition: background-color .3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 /* line 41, ../sass/_header.scss */
 #menu a:hover {
@@ -637,7 +637,7 @@ h3 {
 .early-adopters p {
   padding: 10px 0;
   text-transform: uppercase;
-  border-top: solid 1px #F1F1F1;
+  border-top: solid 1px #f1f1f1;
   text-align: center;
   color: #CCC;
 }
@@ -826,8 +826,8 @@ p {
 #slideshow {
   width: 100%;
   max-width: 100% !important;
-  height: 360px;
-  max-height: 360px;
+  height: 360px !important;
+  max-height: 360px !important;
   background-color: #fff;
 }
 
