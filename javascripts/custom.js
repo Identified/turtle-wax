@@ -25,3 +25,23 @@ jQuery_new('#home-content')
 				centermarkers : false // Center markers horizontally
 		});	 
 });
+
+
+jQuery_new('#menu') 
+	.livequery(function(){  
+		var url = window.location.href;
+		
+		if (url.search("feature") > 0) {
+				jQuery_new('.features').addClass('selected');
+		} 
+		else if (url.search("webinar") > 0) {
+				jQuery_new('.webinars').addClass('selected');
+		} 
+		else if (url.search("contact") > 0) {
+				jQuery_new('.contact').addClass('selected');
+		} 
+		else (url.search("home") > 0) {
+				jQuery_new('.contact').addClass('selected');
+		} 
+		return false; 
+}); 
