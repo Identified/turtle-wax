@@ -86,7 +86,7 @@
 
 /* line 3, ../sass/_footer.scss */
 #hr-footer {
-  background-color: #fafafa;
+  background-color: #f1f1f1;
   border-top: 1px #ccc solid;
   padding: 40px 0;
   margin-top: 40px;
@@ -138,6 +138,20 @@
 /* line 50, ../sass/_footer.scss */
 #hr-footer #col-one a:first-of-type, #hr-footer #col-two a:first-of-type {
   border-top: none;
+}
+/* line 55, ../sass/_footer.scss */
+#hr-footer #col-four {
+  clear: both;
+  color: #999999;
+  font-size: 11px;
+}
+/* line 59, ../sass/_footer.scss */
+#hr-footer #col-four a {
+  color: #999999;
+}
+/* line 61, ../sass/_footer.scss */
+#hr-footer #col-four a:hover {
+  color: #5d96ff;
 }
 
 /* line 1, ../sass/_buttons.scss */
