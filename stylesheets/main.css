@@ -629,41 +629,45 @@ h3 {
 }
 
 /* line 106, ../sass/home/_content.scss */
-#early-adopters p {
-  padding-bottom: 10px;
+.early-adopters p {
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-top: solid 1px #F1F1F1;
+  text-align: center;
+  color: #CCC;
 }
-/* line 109, ../sass/home/_content.scss */
-#early-adopters div {
+/* line 113, ../sass/home/_content.scss */
+.early-adopters div {
   margin: 0 auto;
   width: 400px;
 }
-/* line 114, ../sass/home/_content.scss */
-#early-adopters .first-group {
+/* line 118, ../sass/home/_content.scss */
+.early-adopters .first-group {
   width: 800px;
 }
 
-/* line 119, ../sass/home/_content.scss */
+/* line 123, ../sass/home/_content.scss */
 #airs {
   background: url("http://employer-cdn.identified.com/images/airs_grayscale.png") no-repeat;
   margin-right: 0;
   width: 200px;
 }
 
-/* line 127, ../sass/home/_content.scss */
+/* line 131, ../sass/home/_content.scss */
 #nahcr {
   background: url("http://employer-cdn.identified.com/images/nahcr_grayscale.png") no-repeat;
   margin-right: 0;
   width: 200px;
 }
 
-/* line 135, ../sass/home/_content.scss */
+/* line 139, ../sass/home/_content.scss */
 #tmp_worldwide {
   background: url("http://employer-cdn.identified.com/images/tmp_worldwide_grayscale.png") no-repeat;
   margin-right: 0;
   width: 200px;
 }
 
-/* line 143, ../sass/home/_content.scss */
+/* line 147, ../sass/home/_content.scss */
 #staffing_industry_analysts {
   background: url("http://employer-cdn.identified.com/images/staffing_industry_analysts_grayscale.png") no-repeat;
   height: 93px;
