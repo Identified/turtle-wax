@@ -699,7 +699,7 @@ h2.ContainerTitle {
 }
 
 /* line 24, ../sass/_app.scss */
-.ContactFormWrapper {
+div.Normal.ContactFormWrapper {
   padding: 20px;
   background-color: #f1f1f1;
   float: right;
