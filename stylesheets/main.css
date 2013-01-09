@@ -93,7 +93,7 @@
   overflow: hidden;
 }
 /* line 10, ../sass/_footer.scss */
-#hr-footer #container {
+#hr-footer .container {
   width: 960px;
   text-align: left;
   padding: 0;
