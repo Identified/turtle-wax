@@ -814,8 +814,8 @@ ol.bjqs-markers li a {
 .bjqs-caption {
   background-color: rgba(0, 0, 0, 0.05);
   display: block;
-  width: 400px;
-  height: 100%;
+  width: 300px;
+  height: 400px;
   margin: 0;
   padding: 8px;
   position: absolute;
