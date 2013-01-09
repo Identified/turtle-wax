@@ -433,11 +433,15 @@
 }
 /* line 36, ../sass/_header.scss */
 #menu a:hover {
-  background-color: rgba(213, 213, 213, 0.36);
+  background-color: rgba(213, 213, 213, 0.2);
   color: #616868;
 }
-/* line 39, ../sass/_header.scss */
-#menu a:hover .nub {
+/* line 40, ../sass/_header.scss */
+#menu a.selected {
+  background-color: rgba(213, 213, 213, 0.36);
+}
+/* line 42, ../sass/_header.scss */
+#menu a.selected .nub {
   font-size: 0;
   height: 0;
   line-height: 0;
@@ -449,10 +453,6 @@
   z-index: 5;
   left: 40%;
   bottom: 0;
-}
-/* line 52, ../sass/_header.scss */
-#menu a:hover.selected {
-  background-color: rgba(213, 213, 213, 0.2);
 }
 
 /* line 2, ../sass/home/_content.scss */

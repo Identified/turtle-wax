@@ -34,8 +34,11 @@
   position           : relative;
   
   &:hover {
-    background-color: rgba(213, 213, 213, 0.36);
+    background-color: rgba(213, 213, 213, 0.2);
     color            : #616868;
+  }
+  &.selected {
+    background-color: rgba(213, 213, 213, 0.36);
     .nub {
       font-size           : 0;
       height              : 0;
@@ -48,9 +51,6 @@
       z-index             : 5;
       left                : 40%;
       bottom              : 0;
-    }
-    &.selected {
-      background-color: rgba(213, 213, 213, 0.2);
     }
   }
 }
