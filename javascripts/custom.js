@@ -28,15 +28,12 @@ jQuery_new('#home-content')
 
 jQuery_new('#feature-content') 
 .livequery(function(){  
-		jQuery_new("#hr-slides > div:gt(0)").hide();
-		setInterval(function() { 
-			jQuery_new('#hr-slides > div:first')
-				.fadeOut(1000)
-				.next()
-				.fadeIn(1000)
-				.end()
-				.appendTo('#hr-slides');
-		},  3000); 
+		jQuery_new('.fadein img:gt(0)').hide();
+		setInterval(function(){
+			jQuery_new('.fadein :first-child').fadeOut()
+				 .next('img').fadeIn()
+				 .end().appendTo('.fadein');}, 
+			3000);
 });
 
 
