@@ -1,13 +1,14 @@
 #slideshow {
   width: 100%;
   max-width: 100% !important;
-
-  background-color: $line-color;
+  height: 377px;
+  background-color: #fff;
 }
 
 ul.bjqs {
   position: relative;
   list-style: none;
+  height: 377px;
   padding: 0;
   margin: 0;
   overflow: hidden;

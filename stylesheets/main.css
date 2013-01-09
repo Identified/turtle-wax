@@ -743,13 +743,15 @@ p {
 #slideshow {
   width: 100%;
   max-width: 100% !important;
-  background-color: #f1f1f1;
+  height: 377px;
+  background-color: #fff;
 }
 
 /* line 8, ../sass/home/_slideshow.scss */
 ul.bjqs {
   position: relative;
   list-style: none;
+  height: 377px;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -759,33 +761,33 @@ ul.bjqs {
   margin: 0 auto;
 }
 
-/* line 20, ../sass/home/_slideshow.scss */
+/* line 21, ../sass/home/_slideshow.scss */
 li.bjqs-slide {
   position: absolute;
   display: none;
 }
 
-/* line 25, ../sass/home/_slideshow.scss */
+/* line 26, ../sass/home/_slideshow.scss */
 ul.bjqs-controls {
   list-style: none;
   margin: 0;
   padding: 0;
   z-index: 9999;
 }
-/* line 31, ../sass/home/_slideshow.scss */
+/* line 32, ../sass/home/_slideshow.scss */
 ul.bjqs-controls.v-centered li a {
   position: absolute;
 }
-/* line 34, ../sass/home/_slideshow.scss */
+/* line 35, ../sass/home/_slideshow.scss */
 ul.bjqs-controls.v-centered li.bjqs-next a {
   right: 0;
 }
-/* line 37, ../sass/home/_slideshow.scss */
+/* line 38, ../sass/home/_slideshow.scss */
 ul.bjqs-controls.v-centered li.bjqs-prev a {
   left: 0;
 }
 
-/* line 43, ../sass/home/_slideshow.scss */
+/* line 44, ../sass/home/_slideshow.scss */
 ol.bjqs-markers {
   list-style: none;
   padding: 0px 0px 5px 0px;
@@ -795,20 +797,20 @@ ol.bjqs-markers {
   margin: 0;
   width: 100%;
 }
-/* line 51, ../sass/home/_slideshow.scss */
+/* line 52, ../sass/home/_slideshow.scss */
 ol.bjqs-markers.h-centered {
   text-align: center;
 }
-/* line 54, ../sass/home/_slideshow.scss */
+/* line 55, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li {
   display: inline;
 }
-/* line 56, ../sass/home/_slideshow.scss */
+/* line 57, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li a {
   display: inline-block;
 }
 
-/* line 62, ../sass/home/_slideshow.scss */
+/* line 63, ../sass/home/_slideshow.scss */
 .bjqs-caption {
   background-color: rgba(0, 0, 0, 0.05);
   display: block;
@@ -820,14 +822,14 @@ ol.bjqs-markers li a {
   bottom: 0;
   top: 0;
 }
-/* line 72, ../sass/home/_slideshow.scss */
+/* line 73, ../sass/home/_slideshow.scss */
 .bjqs-caption p {
   font-size: 25px;
   line-height: 30px;
   padding: 8px;
 }
 
-/* line 80, ../sass/home/_slideshow.scss */
+/* line 81, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li a {
   border-radius: 8px;
   padding: 8px;
@@ -836,7 +838,7 @@ ol.bjqs-markers li a {
   margin: 5px;
   text-decoration: none;
 }
-/* line 88, ../sass/home/_slideshow.scss */
+/* line 89, ../sass/home/_slideshow.scss */
 ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
   background: #5d96ff;
 }
