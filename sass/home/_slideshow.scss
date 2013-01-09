@@ -1,14 +1,15 @@
 #slideshow {
   width: 100%;
   max-width: 100% !important;
-  height: 377px;
+  height: 360px;
+  max-height: 360px;
   background-color: #fff;
 }
 
 ul.bjqs {
   position: relative;
   list-style: none;
-  height: 377px;
+  height: 360px !important;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -16,6 +17,10 @@ ul.bjqs {
   width: 960px !important;
   display: block;
   margin: 0 auto;
+  img {
+    width: 960px !important;
+    height: 360px !important;
+  }
 }
 
 li.bjqs-slide {
@@ -61,10 +66,10 @@ ol.bjqs-markers {
 }
 
 .bjqs-caption {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: transparent;
   display: block;
   width: 300px;
-  height: 400px;
+  height: 360px;
   margin: 0;
   padding: 8px;
   position: absolute;
