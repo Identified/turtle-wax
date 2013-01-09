@@ -30,16 +30,16 @@ jQuery_new('#feature-content')
 .livequery(function(){  
 		jQuery_new('.fadein img:gt(0)').hide();
 		setInterval(function(){
-			jQuery_new('.fadein :first-child').fadeOut()
+			jQuery_new('.fadein :first-child').fadeOut('slow')
 				 .next('img').fadeIn()
 				 .end().appendTo('.fadein');}, 
-			3000);
+			5000);
+			jQuery_new("img.lazy").lazyload({ 
+					skip_invisible : false
+			});
 });
 
 
-jQuery_new("img.lazy").lazyload({ 
-		skip_invisible : false
-});
 
 
 jQuery_new('#menu') 
