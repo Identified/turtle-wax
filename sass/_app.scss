@@ -1,16 +1,24 @@
 // Apply a natural box layout model to all elements
+
 * {
   -moz-box-sizing    : border-box;
   -webkit-box-sizing : border-box;
   box-sizing         : border-box;
   }
 
-// Moves the stupid hubspot button
+// Overrides Hubspot stuff
+
 #QuickPreviewOverlay {
-  top                : 0px !important;
+  top: 0px !important;
 }
 
+h2.ContainerTitle {
+  display: none;
+}
+
+
 // Clearfix
+
 .cf:before, .cf:after {
   content            : " ";
   display            : table;
@@ -23,6 +31,7 @@
 }
 
 // Common styles
+
 body {
   font-family        : "proxima-nova","Helvetica Neue","Arial",sans-serif;
   font-size          : 14px;
