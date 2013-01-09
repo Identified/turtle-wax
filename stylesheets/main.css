@@ -705,7 +705,7 @@ h2.ContainerTitle {
   width: 300px;
 }
 /* line 29, ../sass/_app.scss */
-.BasicContainer .ContainerContentWrapper {
+.BasicContainer .dnn__ctl1_ContentPane {
   float: left;
   width: 600px;
 }
