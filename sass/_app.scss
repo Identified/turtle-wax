@@ -18,10 +18,10 @@ h2.ContainerTitle {
   display: none;
 }
 
-.ISContent {
-  width: $container-width;
-  margin: 0 auto;
+#dnn_ContentPane {width: 960px; margin:0 auto;}
 
+#dnn_ContentPane .BasicContainer:first-child {
+width:500px; float:left;
 }
 div.Normal.ContactFormWrapper {
   padding: 20px;
@@ -32,6 +32,13 @@ div.Normal.ContactFormWrapper {
   input[type="text"]{
     line-height: 24px;
   }
+
+  .ContactFormItem   input[type="text"], .ContactFormItem   textarea {
+  width: 100% !important;
+    }
+  
+  
+  
   label {
     font-size: 11px;
     text-transform: uppercase;
