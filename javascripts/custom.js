@@ -26,6 +26,21 @@ jQuery_new('#home-content')
 		});	 
 });
 
+jQuery_new('#feature-content') 
+.livequery(function(){  
+		$("#hr-slides > div:gt(0)").hide();
+		setInterval(function() { 
+			$('#hr-slides > div:first')
+				.fadeOut(1000)
+				.next()
+				.fadeIn(1000)
+				.end()
+				.appendTo('#hr-slides');
+		},  3000); 
+});
+
+
+
 
 jQuery_new('#menu') 
 	.livequery(function(){  
