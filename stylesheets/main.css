@@ -83,8 +83,12 @@
   -ms-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
+/* line 81, ../sass/features/_content.scss */
+#panels img {
+  border: 1px #f1f1f1 solid;
+}
 
-/* line 83, ../sass/features/_content.scss */
+/* line 87, ../sass/features/_content.scss */
 .fadein {
   position: relative;
   width: 660px;
@@ -92,14 +96,13 @@
   margin: 10px 0 30px 0;
 }
 
-/* line 89, ../sass/features/_content.scss */
+/* line 93, ../sass/features/_content.scss */
 .fadein img {
   position: absolute;
   left: 0;
   top: 0;
   width: 660px;
   height: 226px;
-  border: 1px #f1f1f1 solid;
 }
 
 /* line 3, ../sass/_footer.scss */
