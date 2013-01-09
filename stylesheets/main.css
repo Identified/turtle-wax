@@ -15,7 +15,7 @@
 }
 /* line 14, ../sass/features/_content.scss */
 #sidebar .full, #sidebar .full a {
-  width: 260px;
+  width: 240px;
 }
 
 /* line 20, ../sass/features/_content.scss */
@@ -23,11 +23,11 @@
   position: relative;
   cursor: pointer;
   padding: 18px 0 18px 14px;
-  -webkit-transition: background-color 0.3s ease-in-out;
-  -moz-transition: background-color 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out;
-  -ms-transition: background-color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
   border-top: 1px #f1f1f1 solid;
   color: #333;
 }
@@ -62,18 +62,18 @@
   background-color: rgba(213, 213, 213, 0.16);
 }
 
-/* line 63, ../sass/features/_content.scss */
+/* line 62, ../sass/features/_content.scss */
 #panels {
   width: 700px;
   float: left;
 }
-/* line 67, ../sass/features/_content.scss */
+/* line 66, ../sass/features/_content.scss */
 #panels div {
   display: none;
   opacity: 0;
   padding: 0 0 0 40px;
 }
-/* line 72, ../sass/features/_content.scss */
+/* line 71, ../sass/features/_content.scss */
 #panels div.selected {
   opacity: 1;
   display: block;
@@ -87,7 +87,7 @@
 /* line 3, ../sass/_footer.scss */
 #hr-footer {
   background-color: #fafafa;
-  border-top: 1px #cccccc solid;
+  border-top: 1px #ccc solid;
   padding: 40px 0;
   margin-top: 40px;
   overflow: hidden;
