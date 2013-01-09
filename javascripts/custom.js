@@ -40,7 +40,7 @@ jQuery_new('#menu')
 		else if (url.search("contact") > 0) {
 				jQuery_new('.contact').addClass('selected');
 		} 
-		else (url.search("home") > 0) {
+		else if (url.search("home") > 0) {
 				jQuery_new('.contact').addClass('selected');
 		} 
 		return false; 
