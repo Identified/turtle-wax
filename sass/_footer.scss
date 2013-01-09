@@ -6,6 +6,10 @@
 	padding: 40px 0;
 	margin-top: 40px;
 	overflow: hidden;
+	width: 960px;
+	text-align: left;
+	padding: 0;
+	margin: auto;
 	
 	.col {
 		width: 30%;
@@ -19,6 +23,13 @@
 		clear: both;
 		img {
 			height: 24px;
+		}
+	}
+
+	#col-one {
+		a {
+			display: block;
+			clear: both;
 		}
 	}
 }
