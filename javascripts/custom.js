@@ -41,7 +41,7 @@ jQuery_new('#menu')
 				jQuery_new('.contact').addClass('selected');
 		} 
 		else if (url.search("home") > 0) {
-				jQuery_new('.contact').addClass('selected');
+				jQuery_new('.home').addClass('selected');
 		} 
 		return false; 
 }); 
