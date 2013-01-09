@@ -1,3 +1,8 @@
+#slideshow {
+  width: 100%;
+  background-color: $line-color;
+}
+
 ul.bjqs {
   position: relative;
   list-style: none;
@@ -5,6 +10,9 @@ ul.bjqs {
   margin: 0;
   overflow: hidden;
   display: none;
+  width: 960px;
+  display: block;
+  margin: 0 auto;
 }
 
 li.bjqs-slide {
