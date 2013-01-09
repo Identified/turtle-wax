@@ -34,12 +34,12 @@ jQuery_new('#feature-content')
 				 .next('img').fadeIn()
 				 .end().appendTo('.fadein');}, 
 			5000);
-			jQuery_new("img.lazy").lazyload({ 
-					skip_invisible : false
-			});
+
 });
 
-
+jQuery_new("img.lazy").lazyload({ 
+		skip_invisible : false
+});
 
 
 jQuery_new('#menu') 
