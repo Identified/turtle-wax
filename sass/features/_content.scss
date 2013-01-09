@@ -82,11 +82,14 @@
 
 .fadein {
   position:relative; 
-  width:500px; 
-  height:332px; 
+  width:660px; 
+  height:226px; 
   }
 .fadein img { 
   position:absolute; 
   left:0; 
   top:0; 
+  width:660px; 
+  height:226px; 
+  border: 1px $border-color solid;
   }
