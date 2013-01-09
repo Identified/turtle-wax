@@ -15,7 +15,9 @@
 h2.ContainerTitle {
   display: none;
 }
-
+.BasicContainer {
+  clear: both;
+}
 .ISContent {
   width: $container-width;
   margin: 0 auto;
