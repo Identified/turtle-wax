@@ -16,6 +16,22 @@ h2.ContainerTitle {
   display: none;
 }
 
+.BasicContainer {
+  width: $container-width;
+  margin: 0 auto;
+  .ContactFormWrapper {
+    padding: 20px;
+    background-color: $line-color;
+    float: right;
+    width: 300px;
+    
+  }
+  .ContainerContentWrapper {
+    float: left;
+    width: 600px;
+    
+  }
+}
 
 // Clearfix
 
