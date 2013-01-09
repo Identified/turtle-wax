@@ -44,10 +44,10 @@
 			&:hover {
 				color:$link-color;
 			}
-			&:last-child {
+			&:last-of-type{
 				border-bottom: none;
 			}
-			&:first-child {
+			&:first-of-type {
 				border-top: none;
 			}
 		}

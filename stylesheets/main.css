@@ -132,11 +132,11 @@
   color: #5d96ff;
 }
 /* line 47, ../sass/_footer.scss */
-#hr-footer #col-one a:last-child, #hr-footer #col-two a:last-child {
+#hr-footer #col-one a:last-of-type, #hr-footer #col-two a:last-of-type {
   border-bottom: none;
 }
 /* line 50, ../sass/_footer.scss */
-#hr-footer #col-one a:first-child, #hr-footer #col-two a:first-child {
+#hr-footer #col-one a:first-of-type, #hr-footer #col-two a:first-of-type {
   border-top: none;
 }
 
