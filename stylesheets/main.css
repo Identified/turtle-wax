@@ -430,9 +430,9 @@
   padding: 0 20px;
   color: #616868;
 }
-/* line 37, ../sass/_header.scss */
+/* line 36, ../sass/_header.scss */
 #menu a:hover {
-  background-color: #b9ecff;
+  background-color: #F1F1F1;
   color: #616868;
 }
 
@@ -600,17 +600,19 @@ body .container {
 
 /* line 38, ../sass/_app.scss */
 h1, h2, h3, h4 {
-  font-family: "museo-slab","Rockwell","Times New Roman",serif;
-  margin: 14px 0;
+  margin: 16px 0 12px 0;
+  font-size: 18px;
   line-height: 130%;
+  font-weight: normal;
 }
 
-/* line 44, ../sass/_app.scss */
+/* line 46, ../sass/_app.scss */
 h2 {
-  margin-top: 0;
+  margin: 0 0 20px 0;
+  font-size: 22px;
 }
 
-/* line 48, ../sass/_app.scss */
+/* line 51, ../sass/_app.scss */
 .full {
   display: block;
   width: 100%;

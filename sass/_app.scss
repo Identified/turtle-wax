@@ -36,13 +36,16 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: "museo-slab","Rockwell","Times New Roman",serif;
-  margin: 14px 0;
+  margin: 16px 0 12px 0;
+  font-size: 18px;
   line-height: 130%;
+  font-weight: normal;
+
 }
 
 h2 {
-  margin-top: 0;
+  margin: 0 0 20px 0;
+  font-size: 22px;
 }
 
 .full {
