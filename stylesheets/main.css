@@ -693,54 +693,49 @@ h2.ContainerTitle {
 }
 
 /* line 19, ../sass/_app.scss */
-.BasicContainer {
+.ISContent {
   width: 960px;
   margin: 0 auto;
 }
 /* line 22, ../sass/_app.scss */
-.BasicContainer .ContactFormWrapper {
+.ISContent .ContactFormWrapper {
   padding: 20px;
   background-color: #f1f1f1;
   float: right;
   width: 300px;
 }
-/* line 29, ../sass/_app.scss */
-.BasicContainer .dnn__ctl1_ContentPane {
-  float: left;
-  width: 600px;
-}
 
-/* line 38, ../sass/_app.scss */
+/* line 33, ../sass/_app.scss */
 .cf:before, .cf:after {
   content: " ";
   display: table;
 }
 
-/* line 42, ../sass/_app.scss */
+/* line 37, ../sass/_app.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 45, ../sass/_app.scss */
+/* line 40, ../sass/_app.scss */
 .cf {
   *zoom: 1;
 }
 
-/* line 51, ../sass/_app.scss */
+/* line 46, ../sass/_app.scss */
 body {
   font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #666;
 }
-/* line 56, ../sass/_app.scss */
+/* line 51, ../sass/_app.scss */
 body .container {
   width: 100%;
   text-align: center;
   padding: 0;
 }
 
-/* line 63, ../sass/_app.scss */
+/* line 58, ../sass/_app.scss */
 h1, h2, h3, h4 {
   margin: 16px 0 12px 0;
   font-size: 18px;
@@ -749,34 +744,34 @@ h1, h2, h3, h4 {
   text-shadow: white 0 1px 0;
 }
 
-/* line 71, ../sass/_app.scss */
+/* line 66, ../sass/_app.scss */
 h2 {
   margin: 0 0 20px 0;
   font-size: 22px;
 }
 
-/* line 75, ../sass/_app.scss */
+/* line 70, ../sass/_app.scss */
 h4 {
   font-size: 16px;
 }
 
-/* line 79, ../sass/_app.scss */
+/* line 74, ../sass/_app.scss */
 .full {
   display: block;
   width: 100%;
 }
 
-/* line 84, ../sass/_app.scss */
+/* line 79, ../sass/_app.scss */
 a, a:link, a:visited {
   color: #5d96ff;
 }
 
-/* line 88, ../sass/_app.scss */
+/* line 83, ../sass/_app.scss */
 p {
   margin: 18px 0;
 }
 
-/* line 93, ../sass/_app.scss */
+/* line 88, ../sass/_app.scss */
 .lazy {
   display: none;
 }

@@ -16,7 +16,7 @@ h2.ContainerTitle {
   display: none;
 }
 
-.BasicContainer {
+.ISContent {
   width: $container-width;
   margin: 0 auto;
   .ContactFormWrapper {
@@ -24,11 +24,6 @@ h2.ContainerTitle {
     background-color: $line-color;
     float: right;
     width: 300px;
-    
-  }
-  .dnn__ctl1_ContentPane {
-    float: left;
-    width: 600px;
     
   }
 }
