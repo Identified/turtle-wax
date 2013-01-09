@@ -38,8 +38,8 @@
 			display: block;
 			clear: both;
 			color: $text-color-alt;
-			border-bottom: 1px solid #f5f5f5;
-			border-top: 1px solid #fff;
+			border-bottom: 1px solid rgba(209, 204, 204, 0.6);
+			border-top: 1px solid rgba(255, 255, 255, 0.6);
 			padding: 10px 40px 10px 10px;
 			&:hover {
 				color:$link-color;
