@@ -78,9 +78,13 @@ h3 {
 
 #customer-quotes {
   div {
+    padding-top: 14px;
+    border-top: 2px #dddddc solid;
     float: left;
     padding: 10px;
     width: 50%;
+    background: url("http://employer-cdn.identified.com/images/amn_healthcare_grayscale.png") bottom center no-repeat;
+    padding-bottom: 20px;
   }
 }
 

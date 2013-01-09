@@ -607,47 +607,51 @@ h3 {
 
 /* line 80, ../sass/home/_content.scss */
 #customer-quotes div {
+  padding-top: 14px;
+  border-top: 2px #dddddc solid;
   float: left;
   padding: 10px;
   width: 50%;
+  background: url("http://employer-cdn.identified.com/images/amn_healthcare_grayscale.png") bottom center no-repeat;
+  padding-bottom: 20px;
 }
 
-/* line 88, ../sass/home/_content.scss */
+/* line 92, ../sass/home/_content.scss */
 #early-adopters p {
   padding-bottom: 10px;
 }
-/* line 91, ../sass/home/_content.scss */
+/* line 95, ../sass/home/_content.scss */
 #early-adopters div {
   margin: 0 auto;
   width: 400px;
 }
-/* line 96, ../sass/home/_content.scss */
+/* line 100, ../sass/home/_content.scss */
 #early-adopters .first-group {
   width: 800px;
 }
 
-/* line 101, ../sass/home/_content.scss */
+/* line 105, ../sass/home/_content.scss */
 #airs {
   background: url("http://employer-cdn.identified.com/images/airs_grayscale.png") no-repeat;
   margin-right: 0;
   width: 200px;
 }
 
-/* line 109, ../sass/home/_content.scss */
+/* line 113, ../sass/home/_content.scss */
 #nahcr {
   background: url("http://employer-cdn.identified.com/images/nahcr_grayscale.png") no-repeat;
   margin-right: 0;
   width: 200px;
 }
 
-/* line 117, ../sass/home/_content.scss */
+/* line 121, ../sass/home/_content.scss */
 #tmp_worldwide {
   background: url("http://employer-cdn.identified.com/images/tmp_worldwide_grayscale.png") no-repeat;
   margin-right: 0;
   width: 200px;
 }
 
-/* line 125, ../sass/home/_content.scss */
+/* line 129, ../sass/home/_content.scss */
 #staffing_industry_analysts {
   background: url("http://employer-cdn.identified.com/images/staffing_industry_analysts_grayscale.png") no-repeat;
   height: 93px;
