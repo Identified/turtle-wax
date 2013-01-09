@@ -34,7 +34,7 @@
 /* line 32, ../sass/features/_content.scss */
 #tabs > div:hover {
   color: #333;
-  background-color: rgba(213, 213, 213, 0.36);
+  background-color: rgba(213, 213, 213, 0.2);
 }
 /* line 36, ../sass/features/_content.scss */
 #tabs > div.selected {
