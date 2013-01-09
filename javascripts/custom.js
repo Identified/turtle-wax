@@ -16,7 +16,7 @@ jQuery_new('#home-content')
 				responsive  : true,
 				animtype : 'fade', // accepts 'fade' or 'slide'
 				animduration : 450, // how fast the animation are
-				animspeed : 10000, // the delay be horizontally
+				animspeed : 5000, // the delay be horizontally
 				showcontrols : false, // show next and prev controls
 				centercontrols : false, // center controls verically
 				nexttext : 'Next', // Text for 'next' button (can use HTML)
