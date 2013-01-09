@@ -18,12 +18,14 @@
 		padding: 20px;
 		float: left;
 	}
+	
 	a.icon {
 		line-height: 32px;
 		color: #61686b;
 		display: block;
 		float: left;
 		clear: both;
+		
 		img {
 			height: 24px;
 			padding-right: 12px;
@@ -37,15 +39,16 @@
 			color: $text-color-alt;
 			border-bottom: 1px solid #f5f5f5;
 			border-top: 1px solid #fff;
-			padding: 7px;
+			padding: 10px 60px;
 			&:hover {
 				color:$link-color;
 			}
-		}
-		
-		a:last-child {
-			border-bottom: none;
-
+			&:last-child {
+				border-bottom: none;
+			}
+			&:first-child {
+				border-top: none;
+			}
 		}
 	}
 }
