@@ -27,6 +27,9 @@ div.Normal.ContactFormWrapper {
   float: left;
   width: 300px;
   margin: 40px 0 40px 30px;
+  input[type="text"]{
+    line-height: 24px;
+  }
 }
 #landing-content {
   float: left;
