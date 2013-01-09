@@ -89,9 +89,10 @@
   position: relative;
   width: 660px;
   height: 226px;
+  margin: 10px 0 30px 0;
 }
 
-/* line 88, ../sass/features/_content.scss */
+/* line 89, ../sass/features/_content.scss */
 .fadein img {
   position: absolute;
   left: 0;
