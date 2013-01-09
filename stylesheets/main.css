@@ -392,7 +392,7 @@
 
 /* line 1, ../sass/_header.scss */
 #hr-header {
-  border-bottom: 1px solid #cecece;
+  border-bottom: 1px solid #F1F1F1;
   height: 120px;
   width: 100%;
 }
@@ -430,7 +430,7 @@
   padding: 0 20px;
   color: #616868;
 }
-/* line 35, ../sass/_header.scss */
+/* line 37, ../sass/_header.scss */
 #menu a:hover {
   background-color: #b9ecff;
   color: #616868;
@@ -601,9 +601,16 @@ body .container {
 /* line 38, ../sass/_app.scss */
 h1, h2, h3, h4 {
   font-family: "museo-slab","Rockwell","Times New Roman",serif;
+  margin: 14px 0;
+  line-height: 130%;
 }
 
-/* line 42, ../sass/_app.scss */
+/* line 44, ../sass/_app.scss */
+h2 {
+  margin-top: 0;
+}
+
+/* line 48, ../sass/_app.scss */
 .full {
   display: block;
   width: 100%;
