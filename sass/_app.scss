@@ -15,9 +15,7 @@
 h2.ContainerTitle {
   display: none;
 }
-.BasicContainer {
-  clear: both;
-}
+
 .ISContent {
   width: $container-width;
   margin: 0 auto;
@@ -26,7 +24,7 @@ h2.ContainerTitle {
 div.Normal.ContactFormWrapper {
   padding: 20px;
   background-color: $line-color;
-  float: right;
+  float: left;
   width: 300px;
   margin: 40px 0 40px 30px;
 }
