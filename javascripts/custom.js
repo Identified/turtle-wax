@@ -11,7 +11,7 @@ jQuery('#tabs div')
 jQuery_new('#home-content') 
 .livequery(function(){  
 		jQuery_new('#slideshow').bjqs({
-				height      : 400,
+				height      : 360,
 				width       : 960,
 				responsive  : true,
 				animtype : 'fade', // accepts 'fade' or 'slide'
