@@ -36,6 +36,8 @@ jQuery_new('#feature-content')
 			3000);
 });
 
+jQuery_new("img.lazy").lazyload();
+
 
 
 

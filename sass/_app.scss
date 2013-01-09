@@ -65,3 +65,8 @@ h2 {
 a, a:link, a:visited {
   color: #5d96ff;
 }
+
+// For lasy-loading images
+.lazy {
+  display: none;
+}
