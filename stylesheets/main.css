@@ -608,50 +608,62 @@ h3 {
 /* line 80, ../sass/home/_content.scss */
 #customer-quotes div {
   padding-top: 14px;
-  border-top: 2px #dddddc solid;
   float: left;
-  padding: 10px;
-  width: 50%;
-  background: url("http://employer-cdn.identified.com/images/quote.png") bottom center no-repeat;
+  padding: 10px 0;
+  width: 48%;
   padding-bottom: 20px;
 }
-
+/* line 87, ../sass/home/_content.scss */
+#customer-quotes div:last-child {
+  float: right;
+}
 /* line 92, ../sass/home/_content.scss */
+#customer-quotes div:first-letter {
+  float: left;
+  font-size: 75px;
+  line-height: 62px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: "museo-slab","Rockwell","Times New Roman",serif;
+}
+
+/* line 106, ../sass/home/_content.scss */
 #early-adopters p {
   padding-bottom: 10px;
 }
-/* line 95, ../sass/home/_content.scss */
+/* line 109, ../sass/home/_content.scss */
 #early-adopters div {
   margin: 0 auto;
   width: 400px;
 }
-/* line 100, ../sass/home/_content.scss */
+/* line 114, ../sass/home/_content.scss */
 #early-adopters .first-group {
   width: 800px;
 }
 
-/* line 105, ../sass/home/_content.scss */
+/* line 119, ../sass/home/_content.scss */
 #airs {
   background: url("http://employer-cdn.identified.com/images/airs_grayscale.png") no-repeat;
   margin-right: 0;
   width: 200px;
 }
 
-/* line 113, ../sass/home/_content.scss */
+/* line 127, ../sass/home/_content.scss */
 #nahcr {
   background: url("http://employer-cdn.identified.com/images/nahcr_grayscale.png") no-repeat;
   margin-right: 0;
   width: 200px;
 }
 
-/* line 121, ../sass/home/_content.scss */
+/* line 135, ../sass/home/_content.scss */
 #tmp_worldwide {
   background: url("http://employer-cdn.identified.com/images/tmp_worldwide_grayscale.png") no-repeat;
   margin-right: 0;
   width: 200px;
 }
 
-/* line 129, ../sass/home/_content.scss */
+/* line 143, ../sass/home/_content.scss */
 #staffing_industry_analysts {
   background: url("http://employer-cdn.identified.com/images/staffing_industry_analysts_grayscale.png") no-repeat;
   height: 93px;

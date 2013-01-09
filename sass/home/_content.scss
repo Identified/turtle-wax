@@ -79,13 +79,27 @@ h3 {
 #customer-quotes {
   div {
     padding-top: 14px;
-    border-top: 2px #dddddc solid;
     float: left;
-    padding: 10px;
-    width: 50%;
-    background: url("http://employer-cdn.identified.com/images/quote.png") bottom center no-repeat;
+    padding: 10px 0;
+    width: 48%;
     padding-bottom: 20px;
+    
+    &:last-child{
+      float: right;
+
+    }
+    
+    &:first-letter { 
+      float: left; 
+      font-size: 75px; 
+      line-height: 62px; 
+      padding-top: 4px; 
+      padding-right: 8px; 
+      padding-left: 3px; 
+      font-family: "museo-slab","Rockwell","Times New Roman",serif;
+      }
   }
+
 }
 
 #early-adopters {
