@@ -30,6 +30,11 @@ div.Normal.ContactFormWrapper {
   input[type="text"]{
     line-height: 24px;
   }
+  label {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #999;
+  }
 }
 #landing-content {
   float: left;
