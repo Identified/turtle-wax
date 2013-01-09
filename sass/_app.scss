@@ -13,6 +13,11 @@ html {
 #QuickPreviewOverlay {
   top: 0px !important;
 }
+#Form {
+  height: 1px !important; 
+  overflow:visible;
+  }
+
 
 h2.ContainerTitle {
   display: none;
