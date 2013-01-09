@@ -91,17 +91,20 @@
   padding: 40px 0;
   margin-top: 40px;
   overflow: hidden;
+}
+/* line 10, ../sass/_footer.scss */
+#hr-footer #container {
   width: 960px;
   text-align: left;
   padding: 0;
   margin: auto;
 }
-/* line 14, ../sass/_footer.scss */
+/* line 17, ../sass/_footer.scss */
 #hr-footer .col {
   width: 30%;
   float: left;
 }
-/* line 18, ../sass/_footer.scss */
+/* line 21, ../sass/_footer.scss */
 #hr-footer a.icon {
   line-height: 32px;
   color: #61686b;
@@ -109,11 +112,11 @@
   float: left;
   clear: both;
 }
-/* line 24, ../sass/_footer.scss */
+/* line 27, ../sass/_footer.scss */
 #hr-footer a.icon img {
   height: 24px;
 }
-/* line 30, ../sass/_footer.scss */
+/* line 33, ../sass/_footer.scss */
 #hr-footer #col-one a {
   display: block;
   clear: both;
