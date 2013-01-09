@@ -17,7 +17,8 @@
 }
 
 #tabs {
-  div {
+  >div {
+    position             : relative;
     cursor               : pointer;
     padding              : 18px 0 18px 14px;
     -webkit-transition   : background-color .3s ease-in-out;
@@ -26,18 +27,33 @@
     -ms-transition       : background-color .3s ease-in-out;
     transition           : background-color .3s ease-in-out;
     border-top           : 1px #f1f1f1 solid;
-    color: #333;
-
-
+    color                : #333;
+    
     &:hover {
       color: #333;
       background-color: rgba(213, 213, 213, 0.36);
     }
     &.selected {
       color                : #F83D19;
+      background-color: rgba(213, 213, 213, 0.36);
+      
+      .nub {
+        font-size: 0;
+        height: 0;
+        line-height: 0;
+        border-style: solid;
+        border-color: transparent;
+        border-width: 10px 10px 10px 0px;
+        border-right-color: white;
+        position: absolute;
+        z-index: 5;
+        right: -1px;
+        top: 50%;
+        margin-top: -10px;
+      }
       &:hover {
         color: #333;
-        background-color: rgba(213, 213, 213, 0.36);
+        background-color: rgba(213, 213, 213, 0.16);
       }
     }
   }
