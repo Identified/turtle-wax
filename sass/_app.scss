@@ -35,6 +35,11 @@ h2.ContainerTitle {
   display: none;
 }
 
+#home-content, #feature-content {
+  float: left;
+  width: 100%;
+}
+
 div.Normal.ContactFormWrapper {
   padding: 20px;
   background-color: $line-color;

@@ -23,11 +23,11 @@
   position: relative;
   cursor: pointer;
   padding: 18px 0 18px 14px;
-  -webkit-transition: background-color 0.3s ease-in-out;
-  -moz-transition: background-color 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out;
-  -ms-transition: background-color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
   border-top: 1px #f1f1f1 solid;
   color: #333;
 }
@@ -108,7 +108,7 @@
 /* line 3, ../sass/_footer.scss */
 #hr-footer {
   background-color: #f1f1f1;
-  border-top: 1px #cccccc solid;
+  border-top: 1px #ccc solid;
   padding: 40px 0;
   margin-top: 40px;
   overflow: hidden;
@@ -466,7 +466,7 @@
 
 /* line 1, ../sass/_header.scss */
 #hr-header {
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #F1F1F1;
   height: 120px;
   width: 100%;
 }
@@ -504,11 +504,11 @@
   padding: 0 20px;
   color: #616868;
   position: relative;
-  -webkit-transition: background-color 0.3s ease-in-out;
-  -moz-transition: background-color 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out;
-  -ms-transition: background-color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
 /* line 41, ../sass/_header.scss */
 #menu a:hover {
@@ -637,7 +637,7 @@ h3 {
 .early-adopters p {
   padding: 10px 0;
   text-transform: uppercase;
-  border-top: solid 1px #f1f1f1;
+  border-top: solid 1px #F1F1F1;
   text-align: center;
   color: #CCC;
 }
@@ -721,6 +721,12 @@ h2.ContainerTitle {
 }
 
 /* line 38, ../sass/_app.scss */
+#home-content, #feature-content {
+  float: left;
+  width: 100%;
+}
+
+/* line 43, ../sass/_app.scss */
 div.Normal.ContactFormWrapper {
   padding: 20px;
   background-color: #f1f1f1;
@@ -728,59 +734,59 @@ div.Normal.ContactFormWrapper {
   width: 300px;
   margin: 40px 0;
 }
-/* line 44, ../sass/_app.scss */
+/* line 49, ../sass/_app.scss */
 div.Normal.ContactFormWrapper input[type="text"] {
   line-height: 24px;
 }
-/* line 48, ../sass/_app.scss */
+/* line 53, ../sass/_app.scss */
 div.Normal.ContactFormWrapper .ContactFormItem input[type="text"], div.Normal.ContactFormWrapper .ContactFormItem textarea {
   width: 100% !important;
 }
-/* line 54, ../sass/_app.scss */
+/* line 59, ../sass/_app.scss */
 div.Normal.ContactFormWrapper label {
   font-size: 11px;
   text-transform: uppercase;
   color: #999;
 }
 
-/* line 60, ../sass/_app.scss */
+/* line 65, ../sass/_app.scss */
 #landing-content {
   float: left;
   width: 600px;
   margin: 40px 0 40px 0;
 }
 
-/* line 68, ../sass/_app.scss */
+/* line 73, ../sass/_app.scss */
 .cf:before, .cf:after {
   content: " ";
   display: table;
 }
 
-/* line 72, ../sass/_app.scss */
+/* line 77, ../sass/_app.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 75, ../sass/_app.scss */
+/* line 80, ../sass/_app.scss */
 .cf {
   *zoom: 1;
 }
 
-/* line 81, ../sass/_app.scss */
+/* line 86, ../sass/_app.scss */
 body {
   font-family: "proxima-nova","Helvetica Neue","Arial",sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #666;
 }
-/* line 86, ../sass/_app.scss */
+/* line 91, ../sass/_app.scss */
 body .container {
   width: 100%;
   text-align: center;
   padding: 0;
 }
 
-/* line 93, ../sass/_app.scss */
+/* line 98, ../sass/_app.scss */
 h1, h2, h3, h4 {
   margin: 16px 0 12px 0;
   font-size: 18px;
@@ -789,34 +795,34 @@ h1, h2, h3, h4 {
   text-shadow: white 0 1px 0;
 }
 
-/* line 101, ../sass/_app.scss */
+/* line 106, ../sass/_app.scss */
 h2 {
   margin: 0 0 20px 0;
   font-size: 22px;
 }
 
-/* line 105, ../sass/_app.scss */
+/* line 110, ../sass/_app.scss */
 h4 {
   font-size: 16px;
 }
 
-/* line 109, ../sass/_app.scss */
+/* line 114, ../sass/_app.scss */
 .full {
   display: block;
   width: 100%;
 }
 
-/* line 114, ../sass/_app.scss */
+/* line 119, ../sass/_app.scss */
 a, a:link, a:visited {
   color: #5d96ff;
 }
 
-/* line 118, ../sass/_app.scss */
+/* line 123, ../sass/_app.scss */
 p {
   margin: 18px 0;
 }
 
-/* line 123, ../sass/_app.scss */
+/* line 128, ../sass/_app.scss */
 .lazy {
   display: none;
 }
