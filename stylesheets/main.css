@@ -788,6 +788,7 @@ body .container {
 
 /* line 98, ../sass/_app.scss */
 h1, h2, h3, h4 {
+  clear: both;
   margin: 16px 0 12px 0;
   font-size: 18px;
   line-height: 130%;
